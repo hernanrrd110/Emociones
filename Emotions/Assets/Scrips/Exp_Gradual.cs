@@ -88,7 +88,7 @@ public class Exp_Gradual : MonoBehaviour
                     TextoEmocion.text = "NEUTRAL";
                     banderaEmo = true;
                     carita.gameObject.SetActive(true);
-                    CambiarImagen("Miedo", carita);
+                    
 
 
                 }
@@ -115,6 +115,7 @@ public class Exp_Gradual : MonoBehaviour
                 PanelEmocion.gameObject.SetActive(true);
                 TextoEmocion.text = "Miedo";
                 banderaEmo = true;
+                CambiarImagen("Miedo", carita);
             }
 
         }
@@ -227,6 +228,22 @@ public class Exp_Gradual : MonoBehaviour
         }
 
         imagen.sprite = I.imagen;
+    }
+
+    public void IrEmoción()
+    {
+        if (TextoEmocion.text == "Miedo")
+            SceneManager.LoadScene("EscenaMiedo_TR");
+        if (TextoEmocion.text == "Ira")
+            SceneManager.LoadScene("EscenaIRA_TR");
+        if (TextoEmocion.text == "Depresión")
+            SceneManager.LoadScene("EscenaDepresión_TR");
+        if (TextoEmocion.text == "Felicidad")
+            SceneManager.LoadScene("EscenaFelicidad_TR");
+        if (TextoEmocion.text == "Ansiedad")
+            SceneManager.LoadScene("EscenaAnsiedad_TR");
+        if (TextoEmocion.text == "Amor")
+            SceneManager.LoadScene("EscenaAmor_TR");
     }
 
     public void Incremento(string nombre)

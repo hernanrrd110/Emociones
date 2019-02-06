@@ -8,5 +8,6 @@ public class Imagen_TIF
 {
     public string nombre;
     public Sprite imagen;
-
+    public float alto;
+    public float ancho;
 }

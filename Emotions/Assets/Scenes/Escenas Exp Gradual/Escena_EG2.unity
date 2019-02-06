@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1547,7 +1547,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 721090161}
-        m_MethodName: "Teor\xEDa"
+        m_MethodName: "IrEmoci\xF3n"
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2362,7 +2362,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3211,10 +3211,16 @@ MonoBehaviour:
   imagenes:
   - nombre: Miedo
     imagen: {fileID: 21300000, guid: 99fa6a08e7b6d644d85656d63e41f417, type: 3}
+    alto: 0
+    ancho: 0
   - nombre: Depresion
     imagen: {fileID: 21300000, guid: d3632c9b601ed1942b22bc559553fdc0, type: 3}
+    alto: 0
+    ancho: 0
   - nombre: Felicidad
     imagen: {fileID: 21300000, guid: 48ee4c60f3530af408fcce4a0e6f3de5, type: 3}
+    alto: 0
+    ancho: 0
   PanelEmocion: {fileID: 546174703}
   TextoEmocion: {fileID: 1280251633}
   TextoLugar: {fileID: 1457850581}
@@ -3232,6 +3238,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc19da4173a6abe429ca91b84011dfb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animador: {fileID: 0}
+  BotonMas: {fileID: 0}
+  BotonMenos: {fileID: 0}
+  SpriteSeven: {fileID: 0}
 --- !u!1 &755658035
 GameObject:
   m_ObjectHideFlags: 0

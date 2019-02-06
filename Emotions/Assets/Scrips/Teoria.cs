@@ -12,10 +12,16 @@ public class Teoria : MonoBehaviour
     public Animator animador;
     public Button BotonMas;
     public Button BotonMenos;
+    public Sprite SpriteSeven;
 
     private void Start()
     {
 
+    }
+
+    private void Update()
+    {
+        
     }
 
     public Teoria()
@@ -23,6 +29,8 @@ public class Teoria : MonoBehaviour
         //Carga los strings solamente
         CargaEscenariosEmociones_TR();
         CargaEscenariosNT_TR();
+        
+
     }
 
     private void CargaEscenariosEmociones_TR()
@@ -39,15 +47,15 @@ public class Teoria : MonoBehaviour
     private void CargaEscenariosNT_TR()
     {
         /*0*/EscenasNT_TR.Add("EscenaNO_TR");
-        /*1*/EscenasNT_TR.Add("EscenaCO_TR");
-        /*2*/EscenasNT_TR.Add("EscenaGABA_TR");
-        /*3*/EscenasNT_TR.Add("EscenaAcho_TR");
-        /*4*/EscenasNT_TR.Add("EscenaGlu_TR");
-        /*5*/EscenasNT_TR.Add("Escena5HT_TR");
-        /*6*/EscenasNT_TR.Add("EscenaNora_TR");
-        /*7*/EscenasNT_TR.Add("EscenaAdr_TR");
-        /*8*/EscenasNT_TR.Add("EscenaDopa_TR");
-        /*9*/EscenasNT_TR.Add("EscenaGly_TR");
+        /*1*/EscenasNT_TR.Add("EscenaCO_TR"); 
+        /*2*/EscenasNT_TR.Add("EscenaAch_TR");
+        /*3*/EscenasNT_TR.Add("EscenaGABA_TR");
+        /*4*/EscenasNT_TR.Add("EscenaGly_TR");
+        /*5*/EscenasNT_TR.Add("EscenaGlu_TR");
+        /*6*/EscenasNT_TR.Add("Escena5HT_TR");
+        /*7*/EscenasNT_TR.Add("EscenaDopa_TR");
+        /*8*/ EscenasNT_TR.Add("EscenaNora_TR");
+        /*9*/EscenasNT_TR.Add("EscenaAdr_TR");
         /*10*/EscenasNT_TR.Add("EscenaOxy_TR");
         /*11*/EscenasNT_TR.Add("EscenaNP_TR");
     }
@@ -78,21 +86,25 @@ public class Teoria : MonoBehaviour
     public void VolverPrincipal() // ********VIEJO**********
     {
         SceneManager.LoadScene("MenuPrincipal");
-        ClaseEstatica.Hola();
     }
 
     public void Aumentar()
     {
-        animador.SetTrigger("Aumentar");
-        BotonMas.gameObject.SetActive(false);
-        BotonMenos.gameObject.SetActive(true);
-
+        if (animador != null)
+        {
+            animador.SetTrigger("Aumentar");
+            BotonMas.gameObject.SetActive(false);
+            BotonMenos.gameObject.SetActive(true);
+        }
     }
 
     public void Disminuir()
     {
-        animador.SetTrigger("Disminuir");
-        BotonMas.gameObject.SetActive(true);
-        BotonMenos.gameObject.SetActive(false);
+        if (animador != null)
+        {
+            animador.SetTrigger("Disminuir");
+            BotonMas.gameObject.SetActive(true);
+            BotonMenos.gameObject.SetActive(false);
+        }
     }
 }
