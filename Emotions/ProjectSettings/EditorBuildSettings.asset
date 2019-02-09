@@ -58,22 +58,22 @@ EditorBuildSettings:
     guid: a991b3b74430f7947b577643cb88448e
   - enabled: 1
     path: Assets/Scenes/Escenas Exp Discreta/EscenaIRA_ED.unity
-    guid: c3f598b8d75594045b1071c3f9969d39
+    guid: a246241db8e13c34bb5d58e981e2b142
   - enabled: 1
     path: Assets/Scenes/Escenas Exp Discreta/EscenaDepresion_ED.unity
-    guid: 92cdd0991bee0524da1d2a6537e87866
+    guid: b98a07578ea6bae4697d420747b0dc23
   - enabled: 1
     path: Assets/Scenes/Escenas Exp Discreta/EscenaFelicidad_ED.unity
-    guid: 9a85b1b170dd724438b256abe88458cb
+    guid: caaff2db3c378cb41a98ce3ed51ad49f
   - enabled: 1
     path: Assets/Scenes/Escenas Exp Discreta/EscenaSorpresa_ED.unity
-    guid: 0403d824be7de7b42853fe49f6a1276d
+    guid: 8b713a742a6b43846a854bf9c12f5004
   - enabled: 1
     path: Assets/Scenes/Escenas Exp Discreta/EscenaAnsiedad_ED.unity
-    guid: 61a29246d67e626429b2884c03c8bf76
+    guid: abc862a7a82ddaa48b83fa6f22eab82a
   - enabled: 1
     path: Assets/Scenes/Escenas Exp Discreta/EscenaAmor_ED.unity
-    guid: eb081d13e9d0b5640b8d858c7f60564e
+    guid: 6632a1d7df263a546897cf3c86036c4f
   - enabled: 1
     path: "Assets/Scenes/Escenas Teor\xEDa Emociones/EscenaMiedo_TR.unity"
     guid: 229a936f81dd6b94fad5281328d89330

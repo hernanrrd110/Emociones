@@ -9,6 +9,7 @@ public class MenuPausa : MonoBehaviour
 {
     public AudioMixer audioMixer;
     public GameObject Menu;
+    public GameObject Esc;
     string NameScene;
 
     void Start()
@@ -20,25 +21,51 @@ public class MenuPausa : MonoBehaviour
     {
         NameScene = SceneManager.GetActiveScene().name; 
         if(!(NameScene == "MenuPrincipal" || NameScene == "MenuExperiencias" || NameScene == "MenuTeoria"))
-            {
+        {
+            Esc.SetActive(true);
             if (Input.GetKeyDown(KeyCode.Escape))
             {
                 if (Menu.activeSelf == false)
                 {
                     Menu.SetActive(true);
+
                 }
                 else
                 {
                     Menu.SetActive(false);
+
                 }
             }
+
         }
         else
         {
+            
             if (Menu.activeSelf == true)
             {
                 Menu.SetActive(false);
             }
+
+            if (NameScene == "MenuExperiencias" || NameScene == "MenuTeoria")
+            {
+                Esc.SetActive(true);
+            }
+            else
+                Esc.SetActive(false);
+        }
+    }
+
+    public void Escape()
+    {
+        if (Menu.activeSelf == false)
+        {
+            Menu.SetActive(true);
+
+        }
+        else
+        {
+            Menu.SetActive(false);
+
         }
     }
 

@@ -4,7 +4,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+using TMPro;
 
 public class Exp_Gradual : MonoBehaviour
 {
@@ -31,7 +31,18 @@ public class Exp_Gradual : MonoBehaviour
     Text TextoGABA;
     Text Texto5HT;
     Text TextoOxy;
-    
+
+    public enum Lugares : int
+    {
+        AMIGDALA = 0,
+        HIPOTALAMO,
+        HIPOCAMPO
+    }
+
+    List <string> ListaLugares = new List<string>();
+    int IndiceActualDropdown = 0;
+
+    public TMP_Dropdown dropdownLugaresTM;
 
     bool banderaEmo = false;
 
@@ -42,6 +53,17 @@ public class Exp_Gradual : MonoBehaviour
     {
         PanelEmocion.gameObject.SetActive(false);
         InicializarSliders();
+
+        ListaLugares.Add("Amígdala");
+        ListaLugares.Add("Hipotálamo");
+        ListaLugares.Add("Hipocampo");
+
+        dropdownLugaresTM.ClearOptions();
+        dropdownLugaresTM.AddOptions(ListaLugares);
+        dropdownLugaresTM.value = 0;
+
+
+
         Button[] Botones = FindObjectsOfType<Button>();
         foreach (Button b in Botones)
         {
@@ -68,6 +90,7 @@ public class Exp_Gradual : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         TextoGlu.text = Glu.value.ToString();
         TextoDopa.text = Dopa.value.ToString();
         TextoGABA.text = GABA.value.ToString();
@@ -80,7 +103,7 @@ public class Exp_Gradual : MonoBehaviour
     
         if ((Glu.value == 3|| Glu.value == 4) && (Dopa.value == 3|| Dopa.value == 4) && (GABA.value == 3|| GABA.value == 4) && (_5HT.value == 3|| _5HT.value == 4))
         {
-            if (TextoLugar.text == "Hipotálamo")
+            if (IndiceActualDropdown == (int)Lugares.HIPOTALAMO)
             {
                 if (Oxy.value == 1|| Oxy.value == 2)
                 {
@@ -101,13 +124,12 @@ public class Exp_Gradual : MonoBehaviour
                 TextoEmocion.text = "NEUTRAL";
                 banderaEmo = true;
                 carita.gameObject.SetActive(true);
-                CambiarImagen("Miedo", carita);
             }
         }
         
         //*****************ESTADOS DE AMIGDALA******************
         
-        if (TextoLugar.text == "Amígdala")
+        if (IndiceActualDropdown == (int)Lugares.AMIGDALA)
         {
             //*****************ESTADO DE MIEDO******************
             if (((Glu.value >= 5) && (Glu.value <=7)) && (Dopa.value >= 5 && Dopa.value <= 7) && (GABA.value == 3 || GABA.value == 4) && (_5HT.value >= 5 && _5HT.value <= 7))
@@ -117,11 +139,11 @@ public class Exp_Gradual : MonoBehaviour
                 banderaEmo = true;
                 CambiarImagen("Miedo", carita);
             }
-
+            
         }
     
         //*****************ESTADOS DE HIPOTALAMO******************
-        if (TextoLugar.text == "Hipotálamo")
+        if (IndiceActualDropdown == (int)Lugares.HIPOTALAMO)
         {
             OxyBotonMas.interactable = true;
             OxyBotonMenos.interactable = true;
@@ -155,10 +177,8 @@ public class Exp_Gradual : MonoBehaviour
         }
 
 
-
-
         //******************ESTADOS DE HIPOCAMPO******************
-        if (TextoLugar.text == "Hipocampo")
+        if (IndiceActualDropdown == (int)Lugares.HIPOCAMPO)
         {
             //******************ESTADO DE DEPRESION******************
             if ((Glu.value > 2 && Glu.value < 8) && (Dopa.value > 0  && Dopa.value < 3) && (GABA.value > 4 && GABA.value < 8) && (_5HT.value > 0 && _5HT.value < 3))
@@ -202,20 +222,13 @@ public class Exp_Gradual : MonoBehaviour
 
     }
 
-    public void Cambiar()
-    {
-        if (TextoLugar.text == "Amígdala")
-        {
-            TextoLugar.text = "Hipotálamo";
-        }
-        else
-        {
-            if (TextoLugar.text == "Hipotálamo")
-                TextoLugar.text = "Hipocampo";
-            else
-                TextoLugar.text = "Amígdala";
-        }
 
+
+    public void dropdownCambioTM(int IndiceDropdown)
+    {
+        dropdownLugaresTM.value = IndiceDropdown;
+        dropdownLugaresTM.RefreshShownValue();
+        IndiceActualDropdown = IndiceDropdown;
     }
 
     public void CambiarImagen(string nombre, Image imagen)
@@ -229,6 +242,8 @@ public class Exp_Gradual : MonoBehaviour
 
         imagen.sprite = I.imagen;
     }
+
+
 
     public void IrEmoción()
     {
@@ -301,26 +316,6 @@ public class Exp_Gradual : MonoBehaviour
         {
             Oxy.value--;
         }
-    }
-
-
-
-    public void Teoría()
-    {
-        if (TextoEmocion.text == "Miedo")
-            SceneManager.LoadScene("EscenaMiedo_TR");
-        if (TextoEmocion.text == "Ira")
-            SceneManager.LoadScene("EscenaIRA_TR");
-        if (TextoEmocion.text == "Depresión")
-            SceneManager.LoadScene("EscenaDepresion_TR");
-        if (TextoEmocion.text == "Felicidad")
-            SceneManager.LoadScene("EscenaFelicidad_TR");
-        if (TextoEmocion.text == "Sorpresa")
-            SceneManager.LoadScene("EscenaSorpresa_TR");
-        if (TextoEmocion.text == "Ansiedad")
-            SceneManager.LoadScene("EscenaAnsiedad_TR");
-        if (TextoEmocion.text == "Amor")
-            SceneManager.LoadScene("EscenaAmor_TR");
     }
 
     private void InicializarSliders()

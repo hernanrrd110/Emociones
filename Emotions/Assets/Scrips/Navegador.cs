@@ -2,25 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Navegador : MonoBehaviour
 {
     List<string> EscenasNavegador = new List<string>();
     bool bandera = false;
+    [SerializeField]
     int IndiceEscenaActual = 0;
-    public GameObject BotonSiguiente;
-    public GameObject BotonAnterior;
-    public GameObject Imagencita;
+
+    public Button BotonSiguiente;
+    public Button BotonAnterior;
+    public Button Esc;
+
 
     private void Start()
     {
         SceneManager.activeSceneChanged += ChangedActiveScene;
         string NombreEscena = SceneManager.GetActiveScene().name;
-        if (NombreEscena == "MenuPrincipal" || NombreEscena == "MenuExperiencias" || NombreEscena == "MenuTeoria")
+        if (NombreEscena == "MenuPrincipal")
         {
-            Imagencita.SetActive(false);
-            BotonAnterior.SetActive(false);
-            BotonSiguiente.SetActive(false);
+            BotonAnterior.gameObject.SetActive(false);
+            BotonSiguiente.gameObject.SetActive(false);
+            Esc.gameObject.SetActive(false);
+            IndiceEscenaActual = -1;
         }
 
     }
@@ -28,12 +33,25 @@ public class Navegador : MonoBehaviour
 
     private void ChangedActiveScene(Scene current, Scene next)
     {
-        if (!(next.name == "MenuPrincipal" || next.name == "MenuExperiencias" || next.name == "MenuTeoria"))
+        if (next.name != "MenuPrincipal")
         {
-            //Imagen que contiene los botones
-            Imagencita.SetActive(true);
+            BotonAnterior.gameObject.SetActive(true);
+            BotonSiguiente.gameObject.SetActive(true);
+            Esc.gameObject.SetActive(true);
+            if (next.name == "MenuExperiencias" || next.name == "MenuTeoria")
+            {
+                Esc.interactable = false;
+                BotonAnterior.interactable = false;
+            }
+            else
+            {
+                Esc.interactable  = true;
+                BotonAnterior.interactable = true;
+            }
+                
 
-            //Pregunta si se usó los botones de navegador
+            //Pregunta si no se usó los botones de navegador
+
             if (bandera == false)
             {
                 if (IndiceEscenaActual + 1 == EscenasNavegador.Count)
@@ -49,32 +67,24 @@ public class Navegador : MonoBehaviour
                 }
             }
 
-            if (BotonAnterior.activeSelf == false)
-                BotonAnterior.SetActive(true);
             if (EscenasNavegador.Count == (IndiceEscenaActual + 1))
             {
-                if (BotonSiguiente.activeSelf == true)
-                    BotonSiguiente.SetActive(false);
+                BotonSiguiente.interactable = false;
             }
             else
             {
-                if (BotonSiguiente.activeSelf == false)
-                    BotonSiguiente.SetActive(true);
+                BotonSiguiente.interactable = true;
             }
+
         }
         else 
         {
-            //Imagen que contiene los botones
-            Imagencita.SetActive(false);
+            //eliminamos toda la lista, reiniciamos el navegador
             EscenasNavegador.RemoveRange(0, EscenasNavegador.Count);
-            IndiceEscenaActual = 0;
-            if (next.name == "MenuExperiencias")
-                EscenasNavegador.Add("MenuExperiencias");
-            if (next.name == "MenuTeoria")
-                EscenasNavegador.Add("MenuTeoria");
-
-            BotonAnterior.SetActive(false);
-            BotonSiguiente.SetActive(false);
+            IndiceEscenaActual = -1;
+            BotonAnterior.gameObject.SetActive(false);
+            BotonSiguiente.gameObject.SetActive(false);
+            Esc.gameObject.SetActive(false);
         }
 
         bandera = false;
@@ -82,6 +92,7 @@ public class Navegador : MonoBehaviour
 
     public void Siguiente()
     {
+        //Para indicar que se usó el botón de navegador
         bandera = true;
         IndiceEscenaActual++;
         SceneManager.LoadScene(EscenasNavegador[IndiceEscenaActual]);
@@ -89,6 +100,7 @@ public class Navegador : MonoBehaviour
 
     public void Anterior()
     {
+        //Para indicar que se usó el botón de navegador
         bandera = true;
         IndiceEscenaActual--;
         SceneManager.LoadScene(EscenasNavegador[IndiceEscenaActual]);
