@@ -6,20 +6,17 @@ using UnityEngine.UI;
 
 public class ImagenEDCara : MonoBehaviour
 {
-    SuperManager superManager;
-    // Start is called before the first frame update
-    void Start()
+
+    public Image imagenCara;
+
+    public Imagen_TIF[] carucha;
+
+
+    public void CambioSlider(float valor)
     {
-        superManager = FindObjectOfType<SuperManager>();
-        if(SceneManager.GetActiveScene().name == "EscenaMiedo_ED")
-        {
-            superManager.BuscarImagen("CaraMiedo", this.GetComponent<Image>());
-        }
+        imagenCara.sprite = carucha[(int) valor].imagen;
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

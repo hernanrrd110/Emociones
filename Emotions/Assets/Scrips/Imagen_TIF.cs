@@ -10,4 +10,9 @@ public class Imagen_TIF
     public Sprite imagen;
     public float alto;
     public float ancho;
+
+    public Imagen_TIF()
+    {
+
+    }
 }
