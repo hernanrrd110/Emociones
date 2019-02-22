@@ -93,6 +93,6 @@ EditorBuildSettings:
     path: "Assets/Scenes/Escenas Teor\xEDa Emociones/EscenaAmor_TR.unity"
     guid: e3743afed60210e408a6402969d7a06e
   - enabled: 1
-    path: Assets/Scenes/Escenas Exp Gradual/Escena_EG2.unity
+    path: Assets/Scenes/Escenas Exp Gradual/Escena_EG.unity
     guid: dddce64907f3caf4dadf04ef79cbf300
   m_configObjects: {}

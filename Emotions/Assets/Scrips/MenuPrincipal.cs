@@ -19,7 +19,7 @@ public class MenuPrincipal : MonoBehaviour
 
     public void Exp_Grad()
     {
-        SceneManager.LoadScene("Escena_EG2");
+        SceneManager.LoadScene("Escena_EG");
     }
     public void Salir()
     {
