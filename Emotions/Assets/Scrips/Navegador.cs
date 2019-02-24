@@ -106,4 +106,16 @@ public class Navegador : MonoBehaviour
         SceneManager.LoadScene(EscenasNavegador[IndiceEscenaActual]);
 
     }
+
+    private void Update()
+    {
+        string NombreEscena = SceneManager.GetActiveScene().name;
+        if (!(NombreEscena == "MenuPrincipal" || NombreEscena == "MenuExperiencias" || NombreEscena == "MenuTeoria"))
+        {
+            if (Input.GetKeyDown(KeyCode.Tab))
+            {
+                Anterior();
+            }
+        }
+    }
 }
