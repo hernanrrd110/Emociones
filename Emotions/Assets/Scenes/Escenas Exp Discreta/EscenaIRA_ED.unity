@@ -1997,9 +1997,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 721090162}
-        m_MethodName: Disminuir
-        m_Mode: 1
+      - m_Target: {fileID: 1475796491}
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Disminuir
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1743556387}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 228179760}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2497,7 +2519,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -37.968273, y: -31.183043}
+  m_AnchoredPosition: {x: -37.96826, y: -31.183044}
   m_SizeDelta: {x: 50.359985, y: 51.410004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &274381768
@@ -7009,10 +7031,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc19da4173a6abe429ca91b84011dfb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animador: {fileID: 1475796491}
-  BotonMas: {fileID: 1743556389}
-  BotonMenos: {fileID: 228179762}
-  SpriteSeven: {fileID: 0}
 --- !u!1 &744390783
 GameObject:
   m_ObjectHideFlags: 0
@@ -10856,7 +10874,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: a64da5155a1d0fc4496e8ed7ea368217, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8db8de8df2ccd344f903ea71dcd2de6b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11857,19 +11875,19 @@ MonoBehaviour:
   imagenCara: {fileID: 1237730282}
   carucha:
   - nombre: Neutral
-    imagen: {fileID: 21300000, guid: 383de7ff599022b4d9bee1b9a91247e1, type: 3}
+    imagen: {fileID: 21300000, guid: a90279e87049d7241b6ade9e165cc171, type: 3}
     alto: 0
     ancho: 0
   - nombre: Ira1
-    imagen: {fileID: 21300000, guid: 3ab484f44e640014d84aa0be68c5ce21, type: 3}
+    imagen: {fileID: 21300000, guid: 4485caf610a1cf140bc77c2679287d4c, type: 3}
     alto: 0
     ancho: 0
   - nombre: Ira2
-    imagen: {fileID: 21300000, guid: 77c42a24eb9338e4cb1894a6946c6702, type: 3}
+    imagen: {fileID: 21300000, guid: f1d3d1e2f60c66d4dafc8483e74ae92c, type: 3}
     alto: 0
     ancho: 0
   - nombre: Ira3
-    imagen: {fileID: 21300000, guid: a64da5155a1d0fc4496e8ed7ea368217, type: 3}
+    imagen: {fileID: 21300000, guid: 8db8de8df2ccd344f903ea71dcd2de6b, type: 3}
     alto: 0
     ancho: 0
 --- !u!1 &1491041488
@@ -13864,9 +13882,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 721090162}
-        m_MethodName: Aumentar
-        m_Mode: 1
+      - m_Target: {fileID: 1475796491}
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Aumentar
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1743556387}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -13874,6 +13903,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 228179760}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null

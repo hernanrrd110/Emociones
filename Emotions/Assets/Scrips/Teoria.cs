@@ -9,20 +9,8 @@ public class Teoria : MonoBehaviour
 {
     List<string> EscenasEmociones_TR = new List<string>();
     List<string> EscenasNT_TR = new List<string>();
-    public Animator animador;
-    public Button BotonMas;
-    public Button BotonMenos;
-    public Sprite SpriteSeven;
 
-    private void Start()
-    {
 
-    }
-
-    private void Update()
-    {
-        
-    }
 
     public Teoria()
     {
@@ -88,23 +76,4 @@ public class Teoria : MonoBehaviour
         SceneManager.LoadScene("MenuPrincipal");
     }
 
-    public void Aumentar()
-    {
-        if (animador != null)
-        {
-            animador.SetTrigger("Aumentar");
-            BotonMas.gameObject.SetActive(false);
-            BotonMenos.gameObject.SetActive(true);
-        }
-    }
-
-    public void Disminuir()
-    {
-        if (animador != null)
-        {
-            animador.SetTrigger("Disminuir");
-            BotonMas.gameObject.SetActive(true);
-            BotonMenos.gameObject.SetActive(false);
-        }
-    }
 }

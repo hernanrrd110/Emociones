@@ -41,10 +41,25 @@ public class Exp_Gradual : MonoBehaviour
         HIPOCAMPO
     }
 
+    public enum Emociones : int
+    {
+        NEUTRAL = 0,
+        MIEDO,
+        IRA,
+        DEPRESION,
+        FELICIDAD,
+        SORPRESA,
+        ANSIEDAD,
+        AMOR
+    }
+
     List <string> ListaLugares = new List<string>();
-    int IndiceActualDropdown = 0;
+    List<string> ListaEmo = new List<string>();
+    int IndiceActualDropdownLugares = 0;
+    int IndiceActualDropdownEmo = 0;
 
     public TMP_Dropdown dropdownLugaresTM;
+    public TMP_Dropdown dropdownPresets;
 
     bool banderaEmo = false;
 
@@ -60,9 +75,22 @@ public class Exp_Gradual : MonoBehaviour
         ListaLugares.Add("Hipotálamo");
         ListaLugares.Add("Hipocampo");
 
+        ListaEmo.Add("Neutral");
+        ListaEmo.Add("Miedo");
+        ListaEmo.Add("Ira");
+        ListaEmo.Add("Depresión");
+        ListaEmo.Add("Felicidad");
+        ListaEmo.Add("Sorpresa");
+        ListaEmo.Add("Ansiedad");
+        ListaEmo.Add("Amor");
+
         dropdownLugaresTM.ClearOptions();
         dropdownLugaresTM.AddOptions(ListaLugares);
         dropdownLugaresTM.value = 0;
+
+        dropdownPresets.ClearOptions();
+        dropdownPresets.AddOptions(ListaEmo);
+        dropdownPresets.value = 0;
 
 
 
@@ -106,7 +134,7 @@ public class Exp_Gradual : MonoBehaviour
     
         if ((Glu.value == 3|| Glu.value == 4) && (Dopa.value == 3|| Dopa.value == 4) && (GABA.value == 3|| GABA.value == 4) && (_5HT.value == 3|| _5HT.value == 4))
         {
-            if (IndiceActualDropdown == (int)Lugares.HIPOTALAMO)
+            if (IndiceActualDropdownLugares == (int)Lugares.HIPOTALAMO)
             {
                 if (Oxy.value == 1|| Oxy.value == 2)
                 {
@@ -136,7 +164,7 @@ public class Exp_Gradual : MonoBehaviour
             BotonEmocion.interactable = true;
         //*****************ESTADOS DE AMIGDALA******************
 
-        if (IndiceActualDropdown == (int)Lugares.AMIGDALA)
+        if (IndiceActualDropdownLugares == (int)Lugares.AMIGDALA)
         {
             //*****************ESTADOs DE MIEDO******************
 
@@ -172,7 +200,7 @@ public class Exp_Gradual : MonoBehaviour
         }
     
         //*****************ESTADOS DE HIPOTALAMO******************
-        if (IndiceActualDropdown == (int)Lugares.HIPOTALAMO)
+        if (IndiceActualDropdownLugares == (int)Lugares.HIPOTALAMO)
         {
             OxyBotonMas.interactable = true;
             OxyBotonMenos.interactable = true;
@@ -248,7 +276,7 @@ public class Exp_Gradual : MonoBehaviour
 
 
         //******************ESTADOS DE HIPOCAMPO******************
-        if (IndiceActualDropdown == (int)Lugares.HIPOCAMPO)
+        if (IndiceActualDropdownLugares == (int)Lugares.HIPOCAMPO)
         {
             //******************ESTADO DE DEPRESION******************
             if ((Glu.value > 2 && Glu.value < 8) && (Dopa.value > 0  && Dopa.value < 3) && (GABA.value > 4 && GABA.value < 8) && (_5HT.value > 0 && _5HT.value < 3))
@@ -358,9 +386,9 @@ public class Exp_Gradual : MonoBehaviour
     {
         dropdownLugaresTM.value = IndiceDropdown;
         dropdownLugaresTM.RefreshShownValue();
-        IndiceActualDropdown = IndiceDropdown;
+        IndiceActualDropdownLugares = IndiceDropdown;
         
-        switch (IndiceActualDropdown)
+        switch (IndiceActualDropdownLugares)
         {
             case (int)Lugares.AMIGDALA:
                 CambiarImagenCerebro("Amígdala", ImagenCerebro);
@@ -370,6 +398,71 @@ public class Exp_Gradual : MonoBehaviour
                 break;
             case (int)Lugares.HIPOCAMPO:
                 CambiarImagenCerebro("Hipocampo", ImagenCerebro);
+                break;
+
+        }
+
+    }
+
+    public void dropdownPresetsCambio(int IndiceDropdown)
+    {
+        dropdownPresets.value = IndiceDropdown;
+        dropdownPresets.RefreshShownValue();
+        IndiceActualDropdownEmo = IndiceDropdown;
+
+        switch (IndiceActualDropdownEmo)
+        {
+            case (int)Emociones.NEUTRAL:
+                Glu.value = 4;
+                Dopa.value = 4;
+                GABA.value = 4;
+                _5HT.value = 4;
+                if (IndiceActualDropdownLugares == (int)Lugares.HIPOTALAMO)
+                    Oxy.value = 2;
+                break;
+            case (int)Emociones.MIEDO:
+
+                Glu.value = 5;
+                Dopa.value = 5;
+                GABA.value = 5;
+                _5HT.value = 5;
+                dropdownCambioTM((int) Lugares.AMIGDALA);
+                break;
+            case (int)Emociones.IRA:
+                Glu.value = 5;
+                Dopa.value = 5;
+                GABA.value = 5;
+                _5HT.value = 5;
+                break;
+            case (int)Emociones.DEPRESION:
+                Glu.value = 5;
+                Dopa.value = 5;
+                GABA.value = 5;
+                _5HT.value = 5;
+                break;
+            case (int)Emociones.FELICIDAD:
+                Glu.value = 5;
+                Dopa.value = 5;
+                GABA.value = 5;
+                _5HT.value = 5;
+                break;
+            case (int)Emociones.SORPRESA:
+                Glu.value = 5;
+                Dopa.value = 5;
+                GABA.value = 5;
+                _5HT.value = 5;
+                break;
+            case (int)Emociones.ANSIEDAD:
+                Glu.value = 5;
+                Dopa.value = 5;
+                GABA.value = 5;
+                _5HT.value = 5;
+                break;
+            case (int)Emociones.AMOR:
+                Glu.value = 5;
+                Dopa.value = 5;
+                GABA.value = 5;
+                _5HT.value = 5;
                 break;
 
         }

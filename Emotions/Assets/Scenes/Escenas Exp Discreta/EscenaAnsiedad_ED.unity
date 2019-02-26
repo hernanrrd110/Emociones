@@ -2384,9 +2384,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 721090162}
-        m_MethodName: Disminuir
-        m_Mode: 1
+      - m_Target: {fileID: 1475796491}
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Disminuir
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1743556387}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 228179760}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8492,10 +8514,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc19da4173a6abe429ca91b84011dfb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animador: {fileID: 1475796491}
-  BotonMas: {fileID: 1743556389}
-  BotonMenos: {fileID: 228179762}
-  SpriteSeven: {fileID: 0}
 --- !u!1 &724010443
 GameObject:
   m_ObjectHideFlags: 0
@@ -13834,7 +13852,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 8a2766dafbf0b1f429d95b3b000ca68a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 210ee3037d0dcf747b115dbbf5518385, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15471,19 +15489,19 @@ MonoBehaviour:
   imagenCara: {fileID: 1237730282}
   carucha:
   - nombre: Neutral
-    imagen: {fileID: 21300000, guid: 79eccc1d5877a4f4cb0bf6318ccd92d6, type: 3}
+    imagen: {fileID: 21300000, guid: 456ac36e48e59e14095cdbac53d4b60f, type: 3}
     alto: 0
     ancho: 0
   - nombre: Ansiedad1
-    imagen: {fileID: 21300000, guid: 0b921a3766e60f3418c724dbb2f77149, type: 3}
+    imagen: {fileID: 21300000, guid: 0e1ce5c23cb1eb041a2d4008657fe3cc, type: 3}
     alto: 0
     ancho: 0
   - nombre: Ansiedad2
-    imagen: {fileID: 21300000, guid: 7ae9e0e2e02b77e4daee2b0748c428ee, type: 3}
+    imagen: {fileID: 21300000, guid: d0bba5d7c19c96344b223508ba944d91, type: 3}
     alto: 0
     ancho: 0
   - nombre: Ansiedad3
-    imagen: {fileID: 21300000, guid: 8a2766dafbf0b1f429d95b3b000ca68a, type: 3}
+    imagen: {fileID: 21300000, guid: 210ee3037d0dcf747b115dbbf5518385, type: 3}
     alto: 0
     ancho: 0
 --- !u!1 &1479287849
@@ -18708,9 +18726,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 721090162}
-        m_MethodName: Aumentar
-        m_Mode: 1
+      - m_Target: {fileID: 1475796491}
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Aumentar
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1743556387}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -18718,6 +18747,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 228179760}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
