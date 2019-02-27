@@ -48,7 +48,6 @@ public class Exp_Gradual : MonoBehaviour
         IRA,
         DEPRESION,
         FELICIDAD,
-        SORPRESA,
         ANSIEDAD,
         AMOR
     }
@@ -80,7 +79,6 @@ public class Exp_Gradual : MonoBehaviour
         ListaEmo.Add("Ira");
         ListaEmo.Add("Depresión");
         ListaEmo.Add("Felicidad");
-        ListaEmo.Add("Sorpresa");
         ListaEmo.Add("Ansiedad");
         ListaEmo.Add("Amor");
 
@@ -138,19 +136,21 @@ public class Exp_Gradual : MonoBehaviour
             {
                 if (Oxy.value == 1|| Oxy.value == 2)
                 {
+                    dropdownPresets.value = (int)Emociones.NEUTRAL;
                     PanelEmocion.gameObject.SetActive(true);
                     TextoEmocion.text = "NEUTRAL";
                     banderaEmo = true;
                     carita.gameObject.SetActive(true);
                     CambiarImagenCara("Neutral", carita);
                     BotonEmocion.interactable = false;
-
+                    
                 }
                 else
                     PanelEmocion.gameObject.SetActive(false);
             }
             else
             {
+                dropdownPresets.value = (int)Emociones.NEUTRAL;
                 PanelEmocion.gameObject.SetActive(true);
                 TextoEmocion.text = "NEUTRAL";
                 banderaEmo = true;
@@ -170,9 +170,11 @@ public class Exp_Gradual : MonoBehaviour
 
             if (((Glu.value >= 5) && (Glu.value <= 7)) && (Dopa.value >= 5 && Dopa.value <= 7) && (GABA.value == 3 || GABA.value == 4) && (_5HT.value >= 5 && _5HT.value <= 7))
             {
+                dropdownPresets.value = (int)Emociones.MIEDO;
                 int nivel = (int)Glu.value + (int)Dopa.value + (int)_5HT.value;
                 if (nivel >14 && nivel < 17)
                 {
+
                     PanelEmocion.gameObject.SetActive(true);
                     TextoEmocion.text = "Miedo1";
                     banderaEmo = true;
@@ -206,9 +208,11 @@ public class Exp_Gradual : MonoBehaviour
             OxyBotonMenos.interactable = true;
             Oxy.interactable = true;
 
+
             //******************ESTADO DE IRA******************
             if ((Glu.value > 4 && Glu.value < 8) && (Dopa.value > 4 && Dopa.value < 8) && (GABA.value == 3 || GABA.value == 4) && (_5HT.value > 4 && _5HT.value < 8)&& (Oxy.value > 0 && Oxy.value < 3))
             {
+                dropdownPresets.value = (int)Emociones.IRA;
                 int nivel = (int)Glu.value + (int)Dopa.value + (int)_5HT.value;
                 if (nivel > 14 && nivel < 17)
                 {
@@ -240,6 +244,7 @@ public class Exp_Gradual : MonoBehaviour
             //******************ESTADO DE Amor******************
             if ((Glu.value > 2 && Glu.value < 5) && (Dopa.value > 4 && Dopa.value < 8) && (GABA.value > 2 && GABA.value < 5) && (_5HT.value > 4 && _5HT.value < 8) && (Oxy.value > 3 && Oxy.value < 8))
             {
+                dropdownPresets.value = (int)Emociones.AMOR;
                 int nivel = (int)Dopa.value  + (int)_5HT.value + (int)Oxy.value; 
                 if (nivel > 13 && nivel < 17)
                 {
@@ -281,6 +286,7 @@ public class Exp_Gradual : MonoBehaviour
             //******************ESTADO DE DEPRESION******************
             if ((Glu.value > 2 && Glu.value < 8) && (Dopa.value > 0  && Dopa.value < 3) && (GABA.value > 4 && GABA.value < 8) && (_5HT.value > 0 && _5HT.value < 3))
             {
+                dropdownPresets.value = (int)Emociones.DEPRESION;
                 int nivel = (int) Glu.value + (int) GABA.value;
                 if (nivel > 7 && nivel < 10) //Entre 8 y 9
                 {
@@ -312,7 +318,9 @@ public class Exp_Gradual : MonoBehaviour
             //******************ESTADO DE FELICIDAD******************
             if ((Glu.value > 2 && Glu.value < 5) && (Dopa.value > 4 && Dopa.value < 8) && (GABA.value > 2 && GABA.value < 5) && (_5HT.value > 4 && _5HT.value < 8))
             {
+                dropdownPresets.value = (int)Emociones.FELICIDAD;
                 int nivel = (int)Dopa.value + (int)_5HT.value;
+
                 if (nivel > 7 && nivel < 10) //Entre 8 y 9
                 {
                     PanelEmocion.gameObject.SetActive(true);
@@ -343,7 +351,8 @@ public class Exp_Gradual : MonoBehaviour
             //******************ESTADO DE ANSIEDAD******************
             if ((Glu.value > 4 && Glu.value < 8) && (Dopa.value > 0 && Dopa.value < 3) && (GABA.value > 0 && GABA.value < 3) && (_5HT.value > 0 && _5HT.value < 3))
             {
-                if(Glu.value == 5)
+                dropdownPresets.value = (int)Emociones.ANSIEDAD;
+                if (Glu.value == 5)
                 {
                     PanelEmocion.gameObject.SetActive(true);
                     TextoEmocion.text = "Ansiedad1";
@@ -410,62 +419,62 @@ public class Exp_Gradual : MonoBehaviour
         dropdownPresets.RefreshShownValue();
         IndiceActualDropdownEmo = IndiceDropdown;
 
-        switch (IndiceActualDropdownEmo)
-        {
-            case (int)Emociones.NEUTRAL:
-                Glu.value = 4;
-                Dopa.value = 4;
-                GABA.value = 4;
-                _5HT.value = 4;
-                if (IndiceActualDropdownLugares == (int)Lugares.HIPOTALAMO)
+            switch (IndiceActualDropdownEmo)
+            {
+                case (int)Emociones.NEUTRAL:
+                    Glu.value = 4;
+                    Dopa.value = 4;
+                    GABA.value = 4;
+                    _5HT.value = 4;
+                    if (IndiceActualDropdownLugares == (int)Lugares.HIPOTALAMO)
+                        Oxy.value = 2;
+                    break;
+                case (int)Emociones.MIEDO:
+                    Glu.value = 5;
+                    Dopa.value = 5;
+                    GABA.value = 4;
+                    _5HT.value = 5;
+                    dropdownCambioTM((int)Lugares.AMIGDALA);
+                    break;
+                case (int)Emociones.IRA:
+                    Glu.value = 5;
+                    Dopa.value = 5;
+                    GABA.value = 4;
+                    _5HT.value = 5;
                     Oxy.value = 2;
+                    dropdownCambioTM((int)Lugares.HIPOTALAMO);
+                    break;
+                case (int)Emociones.DEPRESION:
+                    Glu.value = 3;
+                    Dopa.value = 2;
+                    GABA.value = 5;
+                    _5HT.value = 2;
+                    dropdownCambioTM((int)Lugares.HIPOCAMPO);
                 break;
-            case (int)Emociones.MIEDO:
-
-                Glu.value = 5;
-                Dopa.value = 5;
-                GABA.value = 5;
-                _5HT.value = 5;
-                dropdownCambioTM((int) Lugares.AMIGDALA);
+                case (int)Emociones.FELICIDAD:
+                    Glu.value = 4;
+                    Dopa.value = 5;
+                    GABA.value = 4;
+                    _5HT.value = 5;
+                    dropdownCambioTM((int)Lugares.HIPOCAMPO);
+                    break;
+                case (int)Emociones.ANSIEDAD:
+                    Glu.value = 5;
+                    Dopa.value = 2;
+                    GABA.value = 2;
+                    _5HT.value = 2;
+                    dropdownCambioTM((int)Lugares.HIPOCAMPO);
                 break;
-            case (int)Emociones.IRA:
-                Glu.value = 5;
-                Dopa.value = 5;
-                GABA.value = 5;
-                _5HT.value = 5;
-                break;
-            case (int)Emociones.DEPRESION:
-                Glu.value = 5;
-                Dopa.value = 5;
-                GABA.value = 5;
-                _5HT.value = 5;
-                break;
-            case (int)Emociones.FELICIDAD:
-                Glu.value = 5;
-                Dopa.value = 5;
-                GABA.value = 5;
-                _5HT.value = 5;
-                break;
-            case (int)Emociones.SORPRESA:
-                Glu.value = 5;
-                Dopa.value = 5;
-                GABA.value = 5;
-                _5HT.value = 5;
-                break;
-            case (int)Emociones.ANSIEDAD:
-                Glu.value = 5;
-                Dopa.value = 5;
-                GABA.value = 5;
-                _5HT.value = 5;
-                break;
-            case (int)Emociones.AMOR:
-                Glu.value = 5;
-                Dopa.value = 5;
-                GABA.value = 5;
-                _5HT.value = 5;
+                case (int)Emociones.AMOR:
+                    Glu.value = 4;
+                    Dopa.value = 5;
+                    GABA.value = 4;
+                    _5HT.value = 5;
+                    Oxy.value = 5;
+                    dropdownCambioTM((int)Lugares.HIPOTALAMO);
                 break;
 
-        }
+            }
 
     }
 

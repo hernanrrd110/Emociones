@@ -149,7 +149,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 187, y: 63.699997}
+  m_AnchoredPosition: {x: 187, y: 69.717}
   m_SizeDelta: {x: 133.8, y: 51.07}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2415430
@@ -464,42 +464,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 40556780}
   m_CullTransparentMesh: 0
---- !u!1 &79297297
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 79297298}
-  m_Layer: 5
-  m_Name: Sliding Area
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &79297298
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 79297297}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 752738700}
-  m_Father: {fileID: 1086966430}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -20, y: -20}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &104284873
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,10 +1040,10 @@ RectTransform:
   m_Father: {fileID: 518137492}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 21.440002, y: -0.0009994507}
-  m_SizeDelta: {x: -42.88, y: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -216.92, y: -0.0009994507}
+  m_SizeDelta: {x: 433.86, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &135090578
 MonoBehaviour:
@@ -1101,7 +1065,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: CAKONA MATATA
+  m_text: "DE LA PECERA AL R\xCDO: Si a\xFAn tienes deseos de saber m\xE1s sobre la
+    relaci\xF3n entre neurotransmisores y emociones, visita la \"Experiencia Discreta\"
+    para un vistazo de profundidad."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -1170,12 +1136,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 135090578}
-    characterCount: 13
+    characterCount: 174
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 27
+    wordCount: 28
     linkCount: 0
-    lineCount: 1
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -1592,6 +1558,128 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 84738cb3d140f074b806130badd75c03, type: 2}
+--- !u!1 &195096361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 195096362}
+  - component: {fileID: 195096366}
+  - component: {fileID: 195096365}
+  - component: {fileID: 195096364}
+  - component: {fileID: 195096363}
+  m_Layer: 5
+  m_Name: Viewport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &195096362
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195096361}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1274028457}
+  m_Father: {fileID: 1820817072}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 1.4000244}
+  m_SizeDelta: {x: -35.8, y: -31.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &195096363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195096361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1367256648, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 1274028457}
+  m_Horizontal: 1
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 20
+  m_Viewport: {fileID: 0}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 1022161410}
+  m_HorizontalScrollbarVisibility: 0
+  m_VerticalScrollbarVisibility: 0
+  m_HorizontalScrollbarSpacing: 0
+  m_VerticalScrollbarSpacing: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.ScrollRect+ScrollRectEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &195096364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195096361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1200242548, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
+--- !u!114 &195096365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195096361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &195096366
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195096361}
+  m_CullTransparentMesh: 0
 --- !u!1 &197021788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1815,8 +1903,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1080120544}
   m_HandleRect: {fileID: 1080120543}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.42176053
+  m_Value: 0.99999994
+  m_Size: 0.4216397
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1894,8 +1982,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.000015429, y: -91.69999}
-  m_SizeDelta: {x: 451.1, y: 60.92}
+  m_AnchoredPosition: {x: 0.10002, y: -91.36}
+  m_SizeDelta: {x: 488.5, y: 60.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &214163916
 GameObject:
@@ -2069,7 +2157,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -2411,6 +2499,7 @@ RectTransform:
   - {fileID: 686676426}
   - {fileID: 971013271}
   - {fileID: 949665668}
+  - {fileID: 940262208}
   - {fileID: 1528788895}
   m_Father: {fileID: 938419344}
   m_RootOrder: 0
@@ -2454,10 +2543,10 @@ RectTransform:
   m_Father: {fileID: 1385990732}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 138}
-  m_SizeDelta: {x: -170, y: -306}
+  m_SizeDelta: {x: 174, y: 44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &286566104
 MonoBehaviour:
@@ -2843,7 +2932,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -3003,7 +3092,7 @@ MonoBehaviour:
     lineCount: 2
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -3442,7 +3531,7 @@ MonoBehaviour:
     lineCount: 2
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -3621,7 +3710,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -142.59001}
+  m_AnchoredPosition: {x: 0, y: -142.58997}
   m_SizeDelta: {x: -0.6, y: 285.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &344768240
@@ -4568,18 +4657,197 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "EmoTIF\xAE es un software de simulaci\xF3n libre y gratuito, el cual fue
-    realizado en la interfaz de desarrollo Unity con UnityEngine con el prop\xF3sito
-    de brindar un soporte did\xE1ctico e interactivo de los temas tratados en el trabajo
-    \u201CEmociones y Neurotransmisores\u201D.\n\nNuestro software es una gu\xEDa
-    interactiva que tiene como prop\xF3sito presentar los temas tratados en el trabajo
-    a estudiantes de fisiologia y biofisica y ramas relacionadas a la neurociencia,
-    brindando un enfoque did\xE1ctico a la relaci\xF3n que existe entre las emociones,
-    los neurotransmisores y los sitios anat\xF3micos que interaccionan. Dise\xF1ado
-    con el objetivo de que pueda usarse como soporte a clases te\xF3ricas de temas
-    afines, no pretende ser un modelo real, sino un simulador de algunas situaciones
-    fisiol\xF3gicas en el marco de las emociones, fundamentada en evidencias emp\xEDricas
-    recolectadas de diversas fuentes.\n\n\n"
+  m_text: "AGUDELO D.; BUELA-CASAL G.; SPIELBERGER C. \u201CAnsiedad y Depresi\xF3n:
+    El problema de la diferenciaci\xF3n a trav\xE9s de los s\xEDntomas\u201D. Salud
+    Mental. 2007, vol. 30, n\xFAm. 2.\r\n\r\n\r\nANDRADE SALAZAR J.; RODR\xCDGUEZ
+    R. A.; CAMPOS RAM\xCDREZ J. A. \u201CGABA, depresi\xF3n y suicidio: aspectos epigen\xE9ticos
+    asociados\u201D. Psicologia.com. 2014, vol. 18, n\xFAm. 1\r\n\r\n\r\nARON A. \u201CReward,
+    Motivation, and Emotion Systems Associated With Early-Stage Intense Romantic Love\u201D.
+    Journal of Neurophysiology. 2005, vol. 94, n\xFAm. 1, p. 327-337\r\n\r\n\r\nBAHENA
+    TRUJILLO R.; FLORES G.; ARIAS MONTA\xD1O J. \u201CDopamina: S\xEDntesis, liberaci\xF3n
+    y receptores en el sistema nervioso central\u201D, Biomed. 2000, vol. 11, p. 39-60.\r\n\r\n\r\nBAN
+    T.; UDABE R. \u201CThe neurotransmitter era in neuropsychopharmacology\u201D;\r\nBuenos
+    Aires: Polemos, 2006. 292 p. ISBN-13: 9789879165683\r\n\r\n\r\nBARKUS C; MCHUGH
+    S; SPRENGEL R; SEEBURG P; RAWLINS N; BANNERMAN D. \u201CHippocampal NMDA receptors
+    and anxiety: At the interface between cognition and emotion\u201D, European Journal
+    of Pharmacology. 2009, vol. 620, n\xFAm 1, p. 49-56\r\n\r\n\r\nBARTELS A.; ZEKI
+    S. \u201CThe neural basis of romantic love\u201D. Neuroreport. 2000, vol. 11,
+    n\xFAm. 17, p. 3829-3834 \r\n\r\nBEALER S. \u201CNoradrenergic control of central
+    oxytocin release during lactation in rats\u201D. American Journal of Physiology.
+    1998, vol. 274, n\xFAm. 3, p. E453-E458\r\n\r\n\r\nBERGER A.  \u201CGlycine Uptake
+    Governs Glycine Site Occupancy at NMDA Receptors of Excitatory Synapses\u201D.
+    Journal of Neurophysiology. 1999, vol. 80, n\xFAm. 6, p. 3336-3340\r\n\r\n\r\nBROUWER
+    A.; VAN WOUWE N.; M\xDCHL C.; VAN ERP J.; TOET A. \u201CPerceiving blocks of emotional
+    pictures and sounds: effects on physiological variables\u201D. Frontiers in Human
+    Neuroscience. 2013, vol. 7., n\xFAm. 295\r\n\r\nCAVAS M.; NAVARRO J. F.  \u201CInteracci\xF3n
+    \xF3xido n\xEDtrico-dopamina: estudios farmacol\xF3gicos y conductuales\u201D.
+    Psiquiatr\xEDa biol\xF3gica: Publicaci\xF2n oficial de la  Sociedad Espa\xF1ola
+    de Psiquiatr\xEDa Biol\xF3gica. 2005, vol. 12, n\xFAm. 2, p. 52-57\r\n\r\n\r\nCERVINO
+    C. \u201CNeurofisiolog\xEDa: Tomo II\u201D. 3ra Ed. Mor\xF3n: ED Praia, 2010.
+    \ 384 p. ISBN: 978-987-9287-78-1\r\n\r\n\r\nCHEN P. \u201CStructural Features
+    of the Glutamate Binding Site in Recombinant NR1/NR2A N-Methyl-D-aspartate Receptors
+    Determined by Site-Directed Mutagenesis and Molecular Modeling\u201D. Molecular
+    Pharmacology. 2005, vol. 67, n\xFAm. 5, p. 1470-1484\r\n\r\nCID F. M.\u201CLos
+    cuatro componentes de la relaci\xF3n en pareja\u201D, Revista Electr\xF3nica de
+    Psicolog\xEDa Iztacala. 2011, vol. 14, n\xFAm. 1\r\n\r\n\r\nDARWIN C. \u201CThe
+    Expression of the Emotions in Man and Animal\u201D. ECKMAN P. 3ra. Ed. New York:
+    Oxford University Press, 1998. 472 p. ISBN: 9780195158069\r\n\r\n\r\nDAWSON T.;
+    SNYDER S. \u201CGases as Biological Messengers: Nitric Oxide and Carbon Monoxide
+    in the Brain\u201D. Journal of Neuroscience. 1994, vol. 14, n\xFAm. 9, p. 5147-5159\r\n\r\nDE
+    ANDRES RODRIGUEZ TRELLES F. \u201CEl neurotransmisor inhibidor GABA: Base del
+    mecanismo de accion de diversos farmacoscon efectos sobre el sistema nervioso
+    central\u201D. En: BENIGNO LORENZO VELAZQUEZ D. \u201CAnales de la Real Academia
+    Nacional de Medicina: El neurotransmisor inhibidor GABA\u201D, Madrid: Real Academia
+    Nacional de Medicina, 1984. p. 41\r\n\r\n\r\nDOBSON K. \u201CThe relationship
+    between anxiety and depression\u201D. Clinical Physiology Review. 1985, vol. 5,
+    n\xFAm. 4, p. 307-324\r\n\r\n\r\nEKMAN P. \u201CAn Argument for Basic Emotions\u201D.
+    Cognition and Emotion. 1991, vol. 6, n\xFAm. 3-4, p. 169-200\r\n\r\n\r\nEKMAN
+    P.; FRIESEN W.V. \u201CUnmasking the face: A guide to recognizing emotions from
+    facial clues\u201D. 1ra ed,Cambridge, Malor books, 2003. 215 p. ISBN 1-883536-36-7\r\n\r\n\r\nESCH
+    T.; STEFANO G. \u201CThe Neurobiology of Love\u201D. Neuro Endocrinology Letters.
+    2005, vol. 26, n\xFAm. 3, p. 175-192 \r\n\r\nFERNANDEZ-ESPEJO E. \u201C\xBFC\xF3mo
+    funciona el nucleus accumbens?\u201D. Rev. Neurol. 2000, vol. 30, p. 845-849.\r\n\r\n\r\nFINK
+    G. \u201CStress: Concepts, Cognition, Emotion, and Behavior: Handbook in Stress
+    Series, Volume 1\u201D. Melbourne: Academic Press, 2016. 502 p. ISBN: 978-0-12-800951-2\r\n\r\nFLORES
+    SOTO M. E.; SEGURA TORRES J. E. \u201CEstructura y funci\xF3n de los receptores
+    acetilcolina de tipo muscar\xEDnico y nicot\xEDnico\u201D. Revista Mexicana de
+    Neurociencia. 2005, vol. 6, n\xFAm. 4, p. 315-326\r\n\r\n\r\nFRANCO-P\xC9REZ J.;
+    BALLESTEROS-ZEBAD\xDAA P.; CUSTODIO V.,PAZ C., (2012) \u201CPrincipales neurotransmisores
+    involucrados en la regulaci\xF3n del ciclo sue\xF1o-vigilia\u201D. Rev. Investigaci\xF3n
+    Cl\xEDnica. 2012, vol. 64, n\xFAm. 2, p. 182-191\r\n\r\n\r\nFRIEDMAN H. \u201CEncyclopedia
+    of Mental Health: Vol. I\u201D,  2\xBA Ed. California: Academic Press, 2016. 2000
+    p. ISBN: 978-0-12-397753-3\r\n\r\n\r\nGARFINKEL S., ZORAB E., NAVARATNAM N., ENGELS
+    M., MALLORQU\xCD-BAGU\xC9 N., MINATI L., DOWELL N., BROSSCHOT J., THAYER J., CRITCHLEY
+    H. \u201CAnger in brain and body: the neural and physiological perturbation of
+    decision-making by emotion\u201D. Social Cognitive and Affective Neuroscience.
+    2016, vol 11, n\xFAm 1, p. 150\u2013158.\r\n\r\n\r\nGAZZANIGA M \u201CThe Cognitive
+    Neurosciences\u201D. 4a Ed, Massachusetts, THE MIT PRESS,  2007, ISBN 978-0-262-01341-3\r\n\r\n\r\nGIMPL
+    G., FAHRENHOLZ F. \u201CThe Oxytocin Receptor System: Structure, Function, and
+    Regulation\u201D. Physiological Reviews. 2001, Vol 81, n\xFAm 2, p. 629-683.\r\n\r\n\r\nGR\xC8ZES
+    J., PICHON S., DE GELDER B. \u201CPerceiving fear in dynamic body expression\u201D.
+    NeuroImage. 2007,vol 35, n\xFAm 2, Pages 959-967.\r\n\r\n\r\nGUADARRAMA L., ESCOBAR
+    A, ZHANG L., \u201CBases neuroqu\xEDmicas y neuroanat\xF3micas de la depresi\xF3n\u201D.
+    Revista de la Facultad de Medicina UNAM. 2006, vol 49, n\xFAm 2.\r\n\r\n GUYTON
+    A. \u201CAnatom\xEDa y fisiolog\xEDa del sistema nervioso: Neurociencia b\xE1sica\u201D.
+    2\xB0 Ed. Buenos Aires: Ed. M\xE9dica Panamericana, 1990. 509 p. ISBN:950-06-0857-X\r\n\r\nHAINES
+    D. E.; MIHAILOFF G. A. \u201CThe Telencephalon\u201D. En: DUANE E.; HAINES D.
+    E.; MIHAILOFF G. A. \u201CFundamental Neuroscience for Basic and Clinical Applications\u201D.
+    \   5\xB0 Ed. Philadelpia: Elsevier, 2018. p. 225-240.e1\r\n\r\n\r\nHOWES O, KAPUR
+    S, \u201CThe Dopamine Hypothesis of Schizophrenia: Version III\u2014The Final
+    Common Pathway\u201D Schizophrenia Bulletin, 2009, vol 35, n\xFAm 3, Pages 549\u2013562.\r\n\r\n\r\nIBONE
+    O. F. \u201COxitocina y autismo: una hip\xF3tesis para investigar. \xBFLa alteraci\xF3n
+    de la producci\xF3n de oxitocina end\xF3gena en torno al parto puede estar involucrada
+    en la etiolog\xEDa del autismo?\u201D. Revista de Psiquiatr\xEDa y Salud Mental.
+    2011, vol 4, n\xFAm 1, p. 38-41.\r\n\r\n\r\nIZARD C \u201CFour Systems for Emotion
+    Activation: Cognitive and Noncognitive Processes\u201D. Psychological Review.
+    1993 vol 100, n\xFAm 1, p. 68-90.\r\n\r\n\r\nIZQUIERDO I, FURINI CRG, MYSKIW JC
+    . \u201CFear memory\u201D. Psychological Review. 2016 vol 96, n\xFAm 2, p. 695-750\r\n\r\nJIM\xC9NEZ
+    M. A., G\xC1LVEZ S\xC1NCHEZ N., S\xC1IZ R. E. \u201CDepresi\xF3n y ansiedad\u201D.
+    En: SOCIEDAD ESPA\xD1OLA DE GERIATR\xCDA Y GERONTOLOG\xCDA \u201CTratado de Geriatr\xEDa
+    para Residentes\u201D. Madrid: Sociedad Espa\xF1ola de Geriatr\xEDa y Gerontolog\xEDa,
+    2006. p. 243-249\r\n\r\nJUN-XI P.; JIB-JUN X.; FENG-LI D.; WEI-WEI L.\u201CDiagnosis
+    of major depressive disorder based on changes in multiple plasma neurotransmitters:
+    a targeted metabolomics study. Translational Psychiatry. 2018, vol. 8, n\xFAm.
+    130.\r\n\r\n\r\nJUSTEL N.; BENTOSELA M.; MUSTACA E. \u201CComportamiento sexual
+    y ansiedad\u201D. Revista Latinoamericana de Psicolog\xEDa. 2009, vol. 41, n\xFAm.
+    3, p. 429-444\r\n\r\n\r\nKANDEL E (1985) \u201CPrinciples of Neural Science\u201D,
+    5\xBA Edici\xF3n, Nueva York: ed. McGraw-Hill Companies,ISBN 978-0-07-139011-8\r\n\r\n\r\nLACASSE
+    K. \u201CGoing with your gut: How William James' theory of emotions brings insights
+    to risk perception and decision making research\u201D New Ideas in Psychology.
+    2017, vol 46, p. 1-7\r\n\r\nMANNS J. R.; BUFFALO E. A., \u201CLearning and Memory:
+    Brain Systems\u201D. En: SQUIRE L.R.; BERG D.; BLOOM F. E.; DU LAC S.; GHOSH A.,
+    SPITZER N. C., \u201CFundamental Neuroscience\u201D. 4\xB0 Ed. Walthman :Academic
+    Press, 2014. p. 1029-1051\r\n\r\nMARA\xD1ON G.,  \u201CContribuci\xF3n al estudio
+    de la acci\xF3n emotiva de la adrenalina\u201D. Estudios de psicolog\xEDa. 1985,
+    vol 6, n\xFAm 21, p. 75-89.\r\n\r\n\r\nMATHEWS J. ,\u201CNature and Dynamics of
+    Happiness: A Psychological View\u201D. Indo-Bhutan International Conference On
+    Gross National Happiness. 2013, Vol 2, p. 118-130.\r\n\r\nMINK J. W. \u201CThe
+    Basal Ganglia\u201D. En: SQUIRE L.R.; BERG D.; BLOOM F. E.; DU LAC S.; GHOSH A.,
+    SPITZER N. C., \u201CFundamental Neuroscience\u201D. 4\xB0 Ed. :Academic Press,
+    2014. p. 653-676\r\n\r\n\r\nMOSIENKO V, BEIS D, PASQUALETTI M, WAIDER J, MATTHES
+    S. \u201CLife without brain serotonin: Reevaluation of serotonin function with
+    mice deficient in brain serotonin synthesis\u201D. Behavioural Brain Research.
+    2015, Volume 277, p. 78-88.\r\n\r\n\r\nMOTHET J-P. \u201Cd-Serine is an endogenous
+    ligand for the glycine site of the N-methyl-d-aspartate receptor\u201D. PNAS.
+    2000, vol 97, n\xFAm 9, p. 4926-4931.\r\n\r\n\r\nNETTLE DANIEL, (2005) \u201CHappiness:
+    The science behind your smile\u201D Oxford: OUP Oxford, 2005, ISBN 0191604747,
+    9780191604744\r\n\r\n\r\nNOBLE E, BILLINGTON C, KOTZ C, WANG C,\u201COxytocin
+    in the ventromedial hypothalamic nucleus reduces feeding and acutely increases
+    energy expenditure\u201D. Am J Physiol Regul Integr Comp Physiol. 2014, vol 307,
+    n\xFAm 6 p. 737-745.\r\n\r\n\r\nNUMMENMAA L., GLEREAN E., HARI R., HIETANEN J.
+    K.(2014) \"Bodily maps of emotions\u201D. Proceedings of the National Academy
+    of Sciences. 2014, vol 111, n\xFAm 2, p.646-651.\r\n\r\n\r\nO\u2019MALLEY DONALD
+    M., SANDELL JULIE H., MASLAND RICHARD H.2 \u201CCo-release of Acetylcholine and
+    GABA by the Starburst Amacrine Cells\u201D 1992, The Journal of neuroscience :
+    the official journal of the Society for Neuroscience. vol 12, n\xFAm 4, p. 1394-408.\r\n\r\n\r\nPALMERO
+    CANTERO F. \u201CManual de teor\xEDas emocionales y motivacionales\u201D. 1\xBA
+    Ed, Castell\xF3n de la Plana: Universitat Jaume I. Servei de Comunicacio\u0301
+    i Publicacions, 2011, ISBN: 9788469420874.\r\n\r\n\r\n\r\nPAV\xD3N FUENTES N,
+    GONZ\xC1LEZ FRAGUELA M.E., ROCHA ARRIETA L, MART\xCDNEZ MART\xCD L (2005) \u201CEfecto
+    de la lesi\xF3n de la sustancia negra pars compacta sobre la liberaci\xF3n de
+    glutamato y GABA en el n\xFAcleo pedunculopontino\u201D. Rev Neurol. 2005, vol
+    40, n\xFAm 1, p. 23-29\r\n\r\n\r\nPEASTON R.\u201CMeasurement of Cathecolamines
+    and their metabolites\u201D Annals of Clinical Biochemistry. 2004,  vol 41, n\xFAm
+    1, p. 17\u201338. \r\n\r\nPERKINS A. M.; INCHLEY-MORT S. L.; PICKERING A. D.;
+    CORR P. J.; BURGESS A. P. \u201CA Facial Expression for Anxiety. Journal of Personality
+    and Facial Psychology. 2012, vol. 102, n\xFAm. 5, p. 910-924.\r\n\r\n\r\nPERT
+    C. \u201CNeuropeptids and their Receptors: A psychosomatic Network\u201D  J Immunol.
+    1985, vol 135, n\xFAm 2, p. 820-826.\r\n\r\n\r\nPINEL JPJ, \u201CBiopsicolog\xEDa\u201D,
+    6ta ed, Ed PEARSON EDUCACI\xD3N, SA., Madrid, 2007, 640 p., ISBN 13:978-84-7829-100-7.\r\n\r\n\r\nPRIETO
+    RAMOS A (2016) \u201CEfectos de la marihuana \u201CCannabis sativa\u201D sobre
+    los niveles de Noradrenalina y Adrenalina en j\xF3venes consumidores, con edades
+    de 18-30 a\xF1os.\u201D Director: Moreno Dur\xE1n, Carmen Helena, Universidad
+    Distrital Francisco Jos\xE9 de Caldas. Licenciatura en Biolog\xEDa, 2016\r\n\r\nPURVES
+    D, AUGUSTINE G J, FITZPATRICK KATZ LAWRENCE C , \u201CInvitaci\xF3n a la Neurociencia\u201D
+    Ed Panamericana, Massachusetts. 2001, EAN: 9788498357547\r\n\r\n\r\nREDOLAR R.
+    \u201CNeurociencia cognitiva\u201D. Madrid: Editorial Panamericana, 2014. 820
+    p. EAN: 9788498354089\r\n\r\nREECE ANDREW G, DANFORTH CHRISTOPHER M \u201CInstagram
+    photos reveal predictive markers of depression\u201D. EPJ Data Science 2016. vol
+    6, n\xFAm 1, p. 15.\r\n\r\n\r\nRITZ T. (2010) \u201CAirway response to emotional
+    stimuli in asthma: the role of the cholinergic pathway\u201D. Journal of Applied
+    Physiology. 2010, Vol 108, n\xFAm 6, p. 1542-1549.\r\n\r\n\r\nROTHMAN R. (1984)
+    \u201CVisualization of Rat Brain Receptors for the Neuropeptide, Substance P\u201D
+    Brain Research,1984, vol 309, n\xFAm 1,p. 47-54.\r\n\r\n\r\nSALAZAR-LOPEZ E.,
+    DOM\xCDNGUEZ E., JUAREZ RAMOS V., DE LA FUENTE J., MEINS A., IBORRA O., G\xC1LVEZ
+    G., RODR\xCDGUEZ-ARTACHO M. A., G\xD3MEZ-MIL\xC1N E.\u201CThe mental and subjective
+    skin: Emotion, empathy, feelings and thermography\u201D. Conscious Cogn. 2015
+    vol 34, p. 149-62.\r\n\r\n\r\nS\xC1NCHEZ GONZ\xC1LEZ D., VILLANUEVA LOP\xC9Z G.,
+    SOSA LUNA A., ORJUELA HENRY D.,ORTEGA RANGEL J.,MART\xCDNEZ MART\xCDNEZ C., HERRERA
+    GONZ\xC1LEZ N. (2004) \u201C\xD3xido n\xEDtrico en el Sistema Nervioso Central.
+    Neuronas Nitr\xE9rgicas\u201D. Rev Neurolog\xEDa Neurocirug\xEDa Psiquiatr\xEDa.
+    2004; vol 37, n\xFAm 2, p. 73-78.\r\n\r\n\r\nSCHERER K., ECKMAN P. (1984) Lawrence
+    Erblaum Associates Inc., \u201CApproaches to Emotion\u201D. Hillsdale: Lawrence
+    Elbaum Associates, 1984. 426 p.  ISBN: 9780898593501\r\n\r\n\r\nSCHULTZ W (2015).
+    \u201CNeuronal Reward and Decision Signals: From Theories to Data\u201D. Physiological
+    Reviews. 2015, vol. 95, n\xFAm. 3, p. 853-951.\r\n\r\n\r\nSIEVER L , \u201CNeurobiology
+    of Aggression and Violence\u201D. American Journal of Psychiatry. 2008, vol. 165,
+    n\xFAm. 4, p. 429-442.\r\n\r\nSILBER K., \u201CThe Physiological Basis of Behaviour\u201D.
+    1ra Edici\xF3n. London: ED Routledge, 1999, ISBN 0-415-18653-6\r\n\r\n\r\nSOLOMON
+    H. S.; SAMIE R. J.; RANDA Z. \u201CNitric oxide and carbon monoxide: parallel
+    roles as neural messengers\u201D. Brain Research Reviews. 1998, vol. 26, n\xFAm.
+    2-3, p. 167-175.\r\n\r\n\r\nSONG W. \"Glycine-Gated Chloride Channels Depress
+    Synaptic Transmission in Rat Hippocampus\u201D. Journal of Neurophysiology. 2006,
+    vol. 95, n\xFAm. 4, p. 2366-2379\r\n\r\n\r\nSORIANO MAS C.,BLANCH G.,REDOLAR RIPOLL
+    D.,GARC\xCDA M., MART\xCDNEZ A. ,\u201CFundamentos de Neurociencia\u201D. 1ra
+    ed. Barcelona: Editorial UOC, 2007.  478 p. ISBN: 98-84988-53-9.\r\n\r\n\r\nSOTERAS-DEL-TORO
+    M., SANZ-MARTINEZ Y., RICARDO-MEDINA W. (2011) \u201CLa emoci\xF3n de la ira:
+    Aproximaciones para su comprensi\xF3n y tratamiento\u201D. Santiago. 2011, vol.
+    124, n\xFAm. 1, p. 60-75\r\n\r\n\r\nTRUJILLO M. (2008) \u201COxido N\xEDtrico:Implicaciones
+    Fisiopatol\xF3gicas\u201D. Revista Colombiana de Anestesiolog\xEDa. 2008, vol.
+    36, n\xFAm. 1, p. 45-52.\r\n\r\n\r\nVICO FUILLERAT C., (2016) \u201CMecanismos
+    corticales y perif\xE9ricos del procesamiento afectivo de caras: emociones positivas\u201D,
+    Directores: ANLLO VENTO M. L.; VILA CASTELLAR J.; GUERRA MU\xD1OZ P. Universidad
+    de Granada, Granada, 2016.\r\n\r\n\r\nWILLIS K. S. \u201COxitocin Redux\u201D.
+    American Journal of Physiology, Regulatory, Integrative and Comparative Physiology.
+    2016, vol. 311, n\xFAm. 4, p. R710-R713\r\n\r\n\r\nWURTMAN RJ, WURTMAN JJ \u201CBrain
+    Serotonin, Carbohydrate Craving, Obesity and Depression\u201D. \tObesity Research.
+    1995, vol. 3, n\xFAm. 4, p. 35-41.\r\n\r\n\r\nYAMAMOTO B, NOVOTNEY S, \u201CRegulation
+    of extracelullar Dopamine by the Norepinephrine Transporter\u201D. Journal of
+    Neurochemistry. 1998, vol 71, n\xFAm 1, July 1998, p. 274-280.\r\n\r\nYOKOYAMA
+    M. , \u201CAmygdalic levels of dopamine and serotonin rise upon exposure to conditioned
+    fear stress without elevation of glutamate\u201D. Neuroscience Letters. 2005,
+    vol 379, n\xFAm 1, p. 37-41.\r\n\r\nZEKI S. \u201CThe neurobiology of love\u201D.
+    FEBS Letters. 2007 , vol 581, n\xFAm. 14, 12, p. 2575-2579."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -4625,7 +4893,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 873
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -4648,12 +4916,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 429746380}
-    characterCount: 874
+    characterCount: 14058
     spriteCount: 0
-    spaceCount: 136
-    wordCount: 133
+    spaceCount: 2189
+    wordCount: 2056
     linkCount: 0
-    lineCount: 30
+    lineCount: 392
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -4970,8 +5238,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 1.4000244}
-  m_SizeDelta: {x: -35.8, y: -31.6}
+  m_AnchoredPosition: {x: 0.0025024414, y: 0}
+  m_SizeDelta: {x: -0.0049438, y: -6.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &470340764
 MonoBehaviour:
@@ -4995,7 +5263,7 @@ MonoBehaviour:
   m_ScrollSensitivity: 20
   m_Viewport: {fileID: 0}
   m_HorizontalScrollbar: {fileID: 0}
-  m_VerticalScrollbar: {fileID: 1086966431}
+  m_VerticalScrollbar: {fileID: 0}
   m_HorizontalScrollbarVisibility: 0
   m_VerticalScrollbarVisibility: 0
   m_HorizontalScrollbarSpacing: 0
@@ -5025,7 +5293,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 470340762}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -5087,10 +5355,10 @@ RectTransform:
   m_Father: {fileID: 1154691360}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 21.440002, y: -0.0009975433}
-  m_SizeDelta: {x: -42.88, y: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -217.7, y: -0.0009975433}
+  m_SizeDelta: {x: 435.3, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &497845701
 MonoBehaviour:
@@ -5112,7 +5380,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: CAKONA MATATA
+  m_text: "REVISI\xD3N TE\xD3RICA: \xBFNo recuerdas mucho acerca de los neurotransmisores?
+    \xBFNunca has tenido emociones? Visita la secci\xF3n \"Teor\xEDa\" para encontrar
+    informaci\xF3n b\xE1sica  al respecto"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -5181,12 +5451,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 497845701}
-    characterCount: 13
+    characterCount: 173
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 23
+    wordCount: 23
     linkCount: 0
-    lineCount: 1
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -5323,8 +5593,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.000015429, y: -152.61996}
-  m_SizeDelta: {x: 451.1, y: 60.92}
+  m_AnchoredPosition: {x: 0.10002, y: -152.28}
+  m_SizeDelta: {x: 488.5, y: 60.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &519420028
 GameObject:
@@ -5565,6 +5835,166 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533385164}
   m_CullTransparentMesh: 0
+--- !u!1 &535309767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 535309768}
+  - component: {fileID: 535309770}
+  - component: {fileID: 535309769}
+  m_Layer: 0
+  m_Name: TextMeshPro Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &535309768
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535309767}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 940262208}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -9.34, y: -5.07}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &535309769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535309767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_text: "Bibliograf\xEDa \nCompleta"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 15
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 15
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_textAlignment: 514
+  m_isAlignmentEnumConverted: 1
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: 14
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 535309769}
+    characterCount: 22
+    spriteCount: 0
+    spaceCount: 2
+    wordCount: 2
+    linkCount: 0
+    lineCount: 2
+    pageCount: 1
+    materialCount: 1
+  m_havePropertiesChanged: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_isInputParsingRequired: 0
+  m_inputSource: 0
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &535309770
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535309767}
+  m_CullTransparentMesh: 0
 --- !u!1 &541756959
 GameObject:
   m_ObjectHideFlags: 0
@@ -5598,8 +6028,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -148.65001}
-  m_SizeDelta: {x: -0.6, y: 297.32}
+  m_AnchoredPosition: {x: 0, y: -3282.1995}
+  m_SizeDelta: {x: -1, y: 6564.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &587394826
 GameObject:
@@ -5695,29 +6125,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 587394830}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1728421772}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 938419343}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &587394830
@@ -6185,10 +6593,10 @@ RectTransform:
   m_Father: {fileID: 1385990732}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 52}
-  m_SizeDelta: {x: -170.62, y: -306}
+  m_SizeDelta: {x: 173.38, y: 44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &641618490
 MonoBehaviour:
@@ -6495,8 +6903,8 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "Podr\xE1 elegir entre la \"Experiencia discreta\" donde hay valores preestablecidos
     de neurotransmisores para una emoci\xF3n en particular. La segunda opci\xF3n es
-    la experiencia gradual, donde podr\xE1 cambiar los valores de los nneurotransmisores
-    y ver que emoci\xF3n sladr\xE1 de la combinaci\xF3n.\n"
+    la experiencia gradual, donde podr\xE1 cambiar los valores de los neurotransmisores
+    y ver que emoci\xF3n saldr\xE1 de la combinaci\xF3n.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -6565,7 +6973,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 666204580}
-    characterCount: 279
+    characterCount: 278
     spriteCount: 0
     spaceCount: 40
     wordCount: 40
@@ -6573,7 +6981,7 @@ MonoBehaviour:
     lineCount: 9
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -6598,6 +7006,177 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666204578}
+  m_CullTransparentMesh: 0
+--- !u!1 &676330561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 676330562}
+  - component: {fileID: 676330564}
+  - component: {fileID: 676330563}
+  m_Layer: 5
+  m_Name: Intro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &676330562
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676330561}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1274028457}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.0024414062}
+  m_SizeDelta: {x: 0, y: -0.0050659}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &676330563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676330561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_text: "EmoTIF\xAE es un software de simulaci\xF3n libre y gratuito, el cual fue
+    realizado en la interfaz de desarrollo Unity con UnityEngine con el prop\xF3sito
+    de brindar un soporte did\xE1ctico e interactivo de los temas tratados en el trabajo
+    \u201CEmociones y Neurotransmisores\u201D.\n\nNuestro software es una gu\xEDa
+    interactiva que tiene como prop\xF3sito presentar los temas tratados en el trabajo
+    a estudiantes de fisiologia y biofisica y ramas relacionadas a la neurociencia,
+    brindando un enfoque did\xE1ctico a la relaci\xF3n que existe entre las emociones,
+    los neurotransmisores y los sitios anat\xF3micos que interaccionan. Dise\xF1ado
+    con el objetivo de que pueda usarse como soporte a clases te\xF3ricas de temas
+    afines, no pretende ser un modelo real, sino un simulador de algunas situaciones
+    fisiol\xF3gicas en el marco de las emociones, fundamentada en evidencias emp\xEDricas
+    recolectadas de diversas fuentes.\n\n\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 15
+  m_fontSizeBase: 15
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 264
+  m_isAlignmentEnumConverted: 1
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: 873
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 676330563}
+    characterCount: 874
+    spriteCount: 0
+    spaceCount: 136
+    wordCount: 133
+    linkCount: 0
+    lineCount: 30
+    pageCount: 1
+    materialCount: 1
+  m_havePropertiesChanged: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_isInputParsingRequired: 0
+  m_inputSource: 0
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &676330564
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676330561}
   m_CullTransparentMesh: 0
 --- !u!1 &678044381
 GameObject:
@@ -6793,10 +7372,10 @@ RectTransform:
   m_Father: {fileID: 208712933}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -204.3, y: -30.461}
-  m_SizeDelta: {x: 34.45, y: 53.71}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 21.699997, y: -0.46100044}
+  m_SizeDelta: {x: 34.449997, y: 53.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &681842369
 MonoBehaviour:
@@ -6864,7 +7443,7 @@ GameObject:
   - component: {fileID: 686676428}
   - component: {fileID: 686676427}
   m_Layer: 0
-  m_Name: "Bot\xF3n VolverAyuda"
+  m_Name: "Bot\xF3n Navegaci\xF3n"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6887,7 +7466,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 187, y: -3.5}
+  m_AnchoredPosition: {x: 187, y: 8.8}
   m_SizeDelta: {x: 133.8, y: 51.07}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &686676427
@@ -7158,10 +7737,10 @@ RectTransform:
   m_Father: {fileID: 518137492}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -204.3, y: -30.461}
-  m_SizeDelta: {x: 34.45, y: 53.71}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 21.699997, y: -0.46100044}
+  m_SizeDelta: {x: 34.449997, y: 53.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &698081300
 MonoBehaviour:
@@ -7704,10 +8283,10 @@ RectTransform:
   m_Father: {fileID: 1385990732}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -42}
-  m_SizeDelta: {x: -170, y: -306}
+  m_SizeDelta: {x: 174, y: 44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &744691711
 MonoBehaviour:
@@ -7835,80 +8414,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 28}
   m_Pivot: {x: 0.5, y: 1}
---- !u!1 &752738699
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 752738700}
-  - component: {fileID: 752738702}
-  - component: {fileID: 752738701}
-  m_Layer: 5
-  m_Name: Handle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &752738700
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752738699}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 79297298}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.13924819}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &752738701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752738699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
---- !u!222 &752738702
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752738699}
-  m_CullTransparentMesh: 0
 --- !u!1 &759079293
 GameObject:
   m_ObjectHideFlags: 0
@@ -8889,29 +9394,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 897555137}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1728421772}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 938419343}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &897555137
@@ -9201,14 +9684,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 470340763}
-  - {fileID: 1086966430}
   m_Father: {fileID: 796469572}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12.5, y: -30.299988}
-  m_SizeDelta: {x: 487.03, y: 243.87}
+  m_AnchoredPosition: {x: 0.7, y: -39.078}
+  m_SizeDelta: {x: 523.7, y: 267.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &922099905
 MonoBehaviour:
@@ -9277,6 +9759,7 @@ RectTransform:
   - {fileID: 265304938}
   - {fileID: 796469572}
   - {fileID: 598431833}
+  - {fileID: 1776889477}
   m_Father: {fileID: 1521991537}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9285,6 +9768,162 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &940262207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 940262208}
+  - component: {fileID: 940262212}
+  - component: {fileID: 940262211}
+  - component: {fileID: 940262210}
+  - component: {fileID: 940262209}
+  m_Layer: 0
+  m_Name: "Bot\xF3n bibliograf\xEDa "
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &940262208
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940262207}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9997985, y: 0.9997985, z: 0.9997985}
+  m_Children:
+  - {fileID: 535309768}
+  m_Father: {fileID: 265304938}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 187, y: -145.7}
+  m_SizeDelta: {x: 133.8, y: 38.84}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &940262209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940262207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &940262210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940262207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0.3066038, g: 0.3378333, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.28773582, g: 0.90116596, b: 1, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 940262211}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 265304937}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 598431832}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &940262211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940262207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &940262212
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940262207}
+  m_CullTransparentMesh: 0
 --- !u!1 &949260726
 GameObject:
   m_ObjectHideFlags: 0
@@ -9482,7 +10121,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 187, y: -107.600006}
+  m_AnchoredPosition: {x: 187, y: -95.3}
   m_SizeDelta: {x: 133.8, y: 38.84}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &949665669
@@ -9857,7 +10496,7 @@ MonoBehaviour:
     lineCount: 2
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -9920,7 +10559,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 187, y: -59.300003}
+  m_AnchoredPosition: {x: 187, y: -46.1}
   m_SizeDelta: {x: 133.8, y: 29.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &971013272
@@ -10357,10 +10996,10 @@ RectTransform:
   m_Father: {fileID: 2118691224}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 21.440002, y: -0.0009994507}
-  m_SizeDelta: {x: -42.88, y: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -216.77, y: 4.7755036}
+  m_SizeDelta: {x: 433.54, y: 60.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &997825230
 MonoBehaviour:
@@ -10382,7 +11021,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: NADA QUE TEMER
+  m_text: "INFINITY AND BEYOND: Visita la \"Bibliograf\xEDa\" de este Panel de Ayuda
+    para obtener informaci\xF3n puntual acerca de las investigaciones que nos permitieron
+    realizar este trabajo. Por cualquier consulta... \xA1No dudes en contactarnos!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -10428,7 +11069,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 179
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -10451,12 +11092,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 997825230}
-    characterCount: 14
+    characterCount: 227
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 3
+    spaceCount: 31
+    wordCount: 32
     linkCount: 0
-    lineCount: 1
+    lineCount: 4
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -10542,7 +11183,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "M\xE1s acerca del programa"
+  m_text: "Bibliograf\xEDa"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -10570,7 +11211,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 23.25
+  m_fontSize: 29
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -10611,12 +11252,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 998348905}
-    characterCount: 23
+    characterCount: 12
     spriteCount: 0
-    spaceCount: 3
-    wordCount: 4
+    spaceCount: 0
+    wordCount: 1
     linkCount: 0
-    lineCount: 2
+    lineCount: 1
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -11126,6 +11767,129 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1022160779}
   m_CullTransparentMesh: 0
+--- !u!1 &1022161408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1022161409}
+  - component: {fileID: 1022161412}
+  - component: {fileID: 1022161411}
+  - component: {fileID: 1022161410}
+  m_Layer: 5
+  m_Name: Scrollbar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1022161409
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022161408}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1760595251}
+  m_Father: {fileID: 1820817072}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 157, y: 0}
+  m_SizeDelta: {x: 20, y: 238.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1022161410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022161408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2061169968, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2143058431}
+  m_HandleRect: {fileID: 2143058430}
+  m_Direction: 2
+  m_Value: 0.9999663
+  m_Size: 0.41162813
+  m_NumberOfSteps: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.Scrollbar+ScrollEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1022161411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022161408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1022161412
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022161408}
+  m_CullTransparentMesh: 0
 --- !u!1 &1023398760
 GameObject:
   m_ObjectHideFlags: 0
@@ -11318,7 +12082,7 @@ RectTransform:
   m_Father: {fileID: 214163917}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.57823944}
+  m_AnchorMin: {x: 0, y: 0.5783603}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -11360,7 +12124,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080120542}
   m_CullTransparentMesh: 0
---- !u!1 &1086966429
+--- !u!1 &1087297436
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11368,61 +12132,77 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1086966430}
-  - component: {fileID: 1086966433}
-  - component: {fileID: 1086966432}
-  - component: {fileID: 1086966431}
-  m_Layer: 5
-  m_Name: Scrollbar
+  - component: {fileID: 1087297437}
+  - component: {fileID: 1087297441}
+  - component: {fileID: 1087297440}
+  - component: {fileID: 1087297439}
+  - component: {fileID: 1087297438}
+  m_Layer: 0
+  m_Name: "Bot\xF3n +Programa"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1086966430
+--- !u!224 &1087297437
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1086966429}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 1087297436}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9997985, y: 0.9997985, z: 0.9997985}
   m_Children:
-  - {fileID: 79297298}
-  m_Father: {fileID: 922099904}
+  - {fileID: 1851747917}
+  m_Father: {fileID: 1776889477}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 34.000015, y: 0}
-  m_SizeDelta: {x: 20, y: -1.199997}
-  m_Pivot: {x: 1, y: 0.5}
---- !u!114 &1086966431
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 132.4}
+  m_SizeDelta: {x: 163.71, y: 57.87}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1087297438
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1086966429}
+  m_GameObject: {fileID: 1087297436}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2061169968, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1087297439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087297436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0.3066038, g: 0.3378333, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.28773582, g: 0.90116596, b: 1, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.3066038, g: 0.3378333, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -11434,25 +12214,20 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 752738701}
-  m_HandleRect: {fileID: 752738700}
-  m_Direction: 2
-  m_Value: 1
-  m_Size: 0.8607518
-  m_NumberOfSteps: 0
-  m_OnValueChanged:
+  m_Interactable: 0
+  m_TargetGraphic: {fileID: 1087297440}
+  m_OnClick:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.Scrollbar+ScrollEvent, UnityEngine.UI, Version=1.0.0.0,
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &1086966432
+--- !u!114 &1087297440
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1086966429}
+  m_GameObject: {fileID: 1087297436}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -11466,7 +12241,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11475,13 +12250,13 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!222 &1086966433
+--- !u!222 &1087297441
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1086966429}
+  m_GameObject: {fileID: 1087297436}
   m_CullTransparentMesh: 0
 --- !u!1 &1099630892
 GameObject:
@@ -12071,8 +12846,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.000015429, y: -30.779999}
-  m_SizeDelta: {x: 451.1, y: 60.92}
+  m_AnchoredPosition: {x: 0.000015259, y: -30.450005}
+  m_SizeDelta: {x: 488.7, y: 60.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1162115503
 GameObject:
@@ -12491,7 +13266,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -13162,6 +13937,42 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.99215686}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!1 &1274028456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274028457}
+  m_Layer: 5
+  m_Name: Contenido
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1274028457
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274028456}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 676330562}
+  m_Father: {fileID: 195096362}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -148.64996}
+  m_SizeDelta: {x: -0.6, y: 297.32}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1277026358
 GameObject:
   m_ObjectHideFlags: 0
@@ -14219,29 +15030,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1343629001}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1728421772}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 938419343}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1343629001
@@ -14684,6 +15473,162 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395273088}
   m_CullTransparentMesh: 0
+--- !u!1 &1422516854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1422516855}
+  - component: {fileID: 1422516859}
+  - component: {fileID: 1422516858}
+  - component: {fileID: 1422516857}
+  - component: {fileID: 1422516856}
+  m_Layer: 0
+  m_Name: "Bot\xF3n Atr\xE1s"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1422516855
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422516854}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9997985, y: 0.9997985, z: 0.9997985}
+  m_Children:
+  - {fileID: 1929774934}
+  m_Father: {fileID: 1776889477}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 103.6, y: 132.4}
+  m_SizeDelta: {x: 38.91, y: 43.11}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1422516856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422516854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1422516857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422516854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 0.9009434, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.28773582, g: 0.90116596, b: 1, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.3066038, g: 0.3378333, b: 1, a: 1}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1422516858}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 265304937}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1776889476}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1422516858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422516854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1422516859
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422516854}
+  m_CullTransparentMesh: 0
 --- !u!1 &1424861016
 GameObject:
   m_ObjectHideFlags: 0
@@ -14818,7 +15763,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -14878,10 +15823,10 @@ RectTransform:
   m_Father: {fileID: 2118691224}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -204.3, y: -30.461}
-  m_SizeDelta: {x: 34.45, y: 53.71}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 21.699997, y: -0.46100044}
+  m_SizeDelta: {x: 34.449997, y: 53.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1429933543
 MonoBehaviour:
@@ -15044,9 +15989,9 @@ RectTransform:
   m_Father: {fileID: 1860607212}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 157, y: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 25, y: 0}
   m_SizeDelta: {x: 20, y: 238.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1446302873
@@ -15088,8 +16033,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1859770067}
   m_HandleRect: {fileID: 1859770066}
   m_Direction: 2
-  m_Value: 0.9999663
-  m_Size: 0.41162813
+  m_Value: 0.99999994
+  m_Size: 0.0067751803
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -15341,7 +16286,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -16002,7 +16947,7 @@ RectTransform:
   - {fileID: 399487507}
   - {fileID: 1540768341}
   m_Father: {fileID: 265304938}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -16489,8 +17434,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 112.2}
-  m_SizeDelta: {x: 0, y: -224.41}
+  m_AnchoredPosition: {x: 0, y: 142.64}
+  m_SizeDelta: {x: 0, y: -285.29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1562308730
 MonoBehaviour:
@@ -16561,7 +17506,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 302
+  m_firstOverflowCharacterIndex: 299
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -16592,7 +17537,7 @@ MonoBehaviour:
     lineCount: 18
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -16867,8 +17812,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.000002776732, y: -123.30502}
-  m_SizeDelta: {x: 451.4, y: 246.61}
+  m_AnchoredPosition: {x: -0.0033821727, y: -130.65}
+  m_SizeDelta: {x: 487.55, y: 246.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1597611926
 GameObject:
@@ -18258,7 +19203,7 @@ MonoBehaviour:
     lineCount: 4
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -18569,6 +19514,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 84738cb3d140f074b806130badd75c03, type: 2}
   resolutionDropdown: {fileID: 1546412232}
+--- !u!1 &1760595250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1760595251}
+  m_Layer: 5
+  m_Name: Sliding Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1760595251
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760595250}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2143058430}
+  m_Father: {fileID: 1022161409}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -20, y: -20}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1766688279
 GameObject:
   m_ObjectHideFlags: 0
@@ -18737,6 +19718,44 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776291139}
   m_CullTransparentMesh: 0
+--- !u!1 &1776889476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1776889477}
+  m_Layer: 5
+  m_Name: "Menu biblograf\xEDa"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1776889477
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776889476}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1820817072}
+  - {fileID: 1087297437}
+  - {fileID: 1422516855}
+  m_Father: {fileID: 938419344}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1798651973
 GameObject:
   m_ObjectHideFlags: 0
@@ -18771,10 +19790,10 @@ RectTransform:
   m_Father: {fileID: 1154691360}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -204.3, y: -30.461}
-  m_SizeDelta: {x: 34.45, y: 53.71}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 21.699997, y: -0.46100044}
+  m_SizeDelta: {x: 34.449997, y: 53.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1798651975
 MonoBehaviour:
@@ -18828,6 +19847,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1798651973}
   m_CullTransparentMesh: 0
+--- !u!1 &1820817071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1820817072}
+  - component: {fileID: 1820817074}
+  - component: {fileID: 1820817073}
+  m_Layer: 5
+  m_Name: Panel Texto
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1820817072
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820817071}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 195096362}
+  - {fileID: 1022161409}
+  m_Father: {fileID: 1776889477}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -37.799988}
+  m_SizeDelta: {x: -283.6, y: -125.2}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1820817073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820817071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.092865944, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1820817074
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820817071}
+  m_CullTransparentMesh: 0
 --- !u!1 &1822889488
 GameObject:
   m_ObjectHideFlags: 0
@@ -18860,10 +19955,10 @@ RectTransform:
   m_Father: {fileID: 208712933}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 21.440002, y: -0.0009994507}
-  m_SizeDelta: {x: -42.88, y: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -217.2, y: -0.0010032654}
+  m_SizeDelta: {x: 434.4, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1822889490
 MonoBehaviour:
@@ -18885,7 +19980,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: UNA FORMA DE SER
+  m_text: "MANOS A LA OBRA: \xBFListo para m\xE1s? \xBFTe salteaste el paso 1?\nEntonces,
+    entra a \"Experiencias\" y enfr\xE9ntate a la \"Experiencia Gradual\" "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -18954,12 +20050,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1822889490}
-    characterCount: 16
+    characterCount: 132
     spriteCount: 0
-    spaceCount: 3
-    wordCount: 4
+    spaceCount: 22
+    wordCount: 22
     linkCount: 0
-    lineCount: 1
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -19133,6 +20229,166 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830662781}
   m_CullTransparentMesh: 0
+--- !u!1 &1851747916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1851747917}
+  - component: {fileID: 1851747919}
+  - component: {fileID: 1851747918}
+  m_Layer: 0
+  m_Name: TextMeshPro Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1851747917
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851747916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1087297437}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -9.34, y: -5.07}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1851747918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851747916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_text: "M\xE1s acerca del programa"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 23.25
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 15
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_textAlignment: 514
+  m_isAlignmentEnumConverted: 1
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 1851747918}
+    characterCount: 23
+    spriteCount: 0
+    spaceCount: 3
+    wordCount: 4
+    linkCount: 0
+    lineCount: 2
+    pageCount: 1
+    materialCount: 1
+  m_havePropertiesChanged: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_isInputParsingRequired: 0
+  m_inputSource: 0
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1851747919
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851747916}
+  m_CullTransparentMesh: 0
 --- !u!1 &1859770065
 GameObject:
   m_ObjectHideFlags: 0
@@ -19165,8 +20421,8 @@ RectTransform:
   m_Father: {fileID: 2109202643}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5883521}
-  m_AnchorMax: {x: 1, y: 0.9999802}
+  m_AnchorMin: {x: 0, y: 0.9932247}
+  m_AnchorMax: {x: 1, y: 0.9999999}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -19243,8 +20499,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -37.799988}
-  m_SizeDelta: {x: -283.6, y: -125.2}
+  m_AnchoredPosition: {x: -15.300049, y: -37.799988}
+  m_SizeDelta: {x: -65, y: -125.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1860607213
 MonoBehaviour:
@@ -19687,6 +20943,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1919908555}
   m_CullTransparentMesh: 0
+--- !u!1 &1929774933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1929774934}
+  - component: {fileID: 1929774936}
+  - component: {fileID: 1929774935}
+  m_Layer: 0
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1929774934
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929774933}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1422516855}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 32.6, y: 31.11}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1929774935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929774933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 2aaa720fb6371b5429370c80500a9834, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 1
+--- !u!222 &1929774936
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929774933}
+  m_CullTransparentMesh: 0
 --- !u!1 &1938435448
 GameObject:
   m_ObjectHideFlags: 0
@@ -19880,29 +21210,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1942052764}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1728421772}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 938419343}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1942052764
@@ -21233,7 +22541,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 20
+  m_ScrollSensitivity: 50
   m_Viewport: {fileID: 0}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 1446302873}
@@ -21464,7 +22772,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Salir
+  m_text: Salir EmoTIF
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -21492,8 +22800,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -21533,10 +22841,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 2112651159}
-    characterCount: 5
+    characterCount: 12
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 1
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -21601,8 +22909,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.000015429, y: -213.53996}
-  m_SizeDelta: {x: 451.1, y: 60.92}
+  m_AnchoredPosition: {x: 0.10002, y: -214.9}
+  m_SizeDelta: {x: 488.5, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2122267771
 GameObject:
@@ -22097,4 +23405,78 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2142117887}
+  m_CullTransparentMesh: 0
+--- !u!1 &2143058429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2143058430}
+  - component: {fileID: 2143058432}
+  - component: {fileID: 2143058431}
+  m_Layer: 5
+  m_Name: Handle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2143058430
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143058429}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1760595251}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5883521}
+  m_AnchorMax: {x: 1, y: 0.9999802}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2143058431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143058429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &2143058432
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143058429}
   m_CullTransparentMesh: 0

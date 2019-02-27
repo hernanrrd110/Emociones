@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5005,7 +5005,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.0500488, y: 0}
+  m_AnchoredPosition: {x: -1.0500183, y: 0}
   m_SizeDelta: {x: -2.1, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &447258799
@@ -11549,7 +11549,7 @@ MonoBehaviour:
   imagenCara: {fileID: 1237730282}
   carucha:
   - nombre: Neutral
-    imagen: {fileID: 21300000, guid: 383de7ff599022b4d9bee1b9a91247e1, type: 3}
+    imagen: {fileID: 21300000, guid: 456ac36e48e59e14095cdbac53d4b60f, type: 3}
     alto: 0
     ancho: 0
   - nombre: Amor1
