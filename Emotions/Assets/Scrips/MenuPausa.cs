@@ -84,5 +84,15 @@ public class MenuPausa : MonoBehaviour
         SceneManager.LoadScene("MenuPrincipal");
     }
 
+    public void MenuExperiencias()
+    {
+        SceneManager.LoadScene("MenuExperiencias");
+    }
+
+    public void MenuTeoria()
+    {
+        SceneManager.LoadScene("MenuTeoria");
+    }
+
 
 }

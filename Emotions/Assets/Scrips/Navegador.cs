@@ -40,11 +40,13 @@ public class Navegador : MonoBehaviour
             Esc.gameObject.SetActive(true);
             if (next.name == "MenuExperiencias" || next.name == "MenuTeoria")
             {
+                //IndiceEscenaActual = 0;
                 Esc.interactable = false;
                 BotonAnterior.interactable = false;
             }
             else
             {
+                //IndiceEscenaActual = 0;
                 Esc.interactable  = true;
                 BotonAnterior.interactable = true;
             }

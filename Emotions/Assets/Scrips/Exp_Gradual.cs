@@ -128,8 +128,10 @@ public class Exp_Gradual : MonoBehaviour
 
         //*******************ESTADO NEUTRO***********************
 
+        carita.gameObject.SetActive(true);
         banderaEmo = false;
-    
+        BotonEmocion.interactable = true;
+
         if ((Glu.value == 3|| Glu.value == 4) && (Dopa.value == 3|| Dopa.value == 4) && (GABA.value == 3|| GABA.value == 4) && (_5HT.value == 3|| _5HT.value == 4))
         {
             if (IndiceActualDropdownLugares == (int)Lugares.HIPOTALAMO)
@@ -150,6 +152,7 @@ public class Exp_Gradual : MonoBehaviour
             }
             else
             {
+
                 dropdownPresets.value = (int)Emociones.NEUTRAL;
                 PanelEmocion.gameObject.SetActive(true);
                 TextoEmocion.text = "NEUTRAL";
@@ -382,10 +385,10 @@ public class Exp_Gradual : MonoBehaviour
         
         if(!banderaEmo)
         {
-            PanelEmocion.gameObject.SetActive(false);
-            CambiarImagenCara("Incognita", carita);
+            TextoEmocion.text = "Indeterminado";
+            carita.gameObject.SetActive(false);
+            //BotonEmocion.interactable = false;
         }
-
 
     }
 
@@ -510,7 +513,7 @@ public class Exp_Gradual : MonoBehaviour
         if (TextoEmocion.text == "Ira1" || TextoEmocion.text == "Ira2" || TextoEmocion.text == "Ira3")
             SceneManager.LoadScene("EscenaIRA_TR");
         if (TextoEmocion.text == "Depresión1" || TextoEmocion.text == "Depresión2" || TextoEmocion.text == "Depresión3")
-            SceneManager.LoadScene("EscenaDepresión_TR");
+            SceneManager.LoadScene("EscenaDepresion_TR");
         if (TextoEmocion.text == "Felicidad1" || TextoEmocion.text == "Felicidad2" || TextoEmocion.text == "Felicidad3")
             SceneManager.LoadScene("EscenaFelicidad_TR");
         if (TextoEmocion.text == "Ansiedad1" || TextoEmocion.text == "Ansiedad2" || TextoEmocion.text == "Ansiedad3")
@@ -611,101 +614,4 @@ public class Exp_Gradual : MonoBehaviour
         
     }
 
-
-
-
-
-
-    /**************************RELACIONES MATEMÁTICAS QUE VAMOS A USAR LUEGO**************************/
-    /**************************INCREMENTO
-    /*
-     * 
-           if (nombre == "Glu")
-           {
-               if (Glu.value < 4)
-               {
-                   Glu.value++;
-                   Incremento("GABA");
-                   Glu.value++;
-               }
-
-           }
-
-           if (nombre == "Dopa")
-           {
-               if (Dopa.value < 4)
-               {
-                   Dopa.value++;
-                   if (Glu.value < 4)
-                       Glu.value++;
-                   if (Glu.value == 4 && Dopa.value == 4)
-                       Glu.value++;
-               }
-           }
-
-           if (nombre == "GABA")
-           {
-               if (GABA.value < 4)
-               {
-                   GABA.value++;
-                   if (GABA.value > 2 && Glu.value > 1)
-                   {
-                       Glu.value--;
-                   }
-                   if (GABA.value > 3 && _5HT.value > 1 && Dopa.value > 1)
-                   {
-                       Dopa.value--;
-                       _5HT.value--;
-                   }
-               }
-           }
-
-           if (nombre == "5HT" && _5HT.value < 4)
-           {
-               _5HT.value++;
-
-           }
-     * 
-     * /********************************DECREMENTO***************
-    *         if (nombre == "Glu")
-       {
-           if (Glu.value > 1)
-           {
-               Glu.value--;
-               Decremento("GABA");
-               Glu.value--;
-           }
-
-       }
-
-       if (nombre == "Dopa")
-       {
-           Dopa.value++;
-           if (Glu.value > 1)
-               Glu.value++;
-       }
-
-       if (nombre == "GABA")
-       {
-           if (GABA.value > 1)
-           {
-               GABA.value--;
-               if (GABA.value > 2 && Glu.value > 1)
-               {
-                   Glu.value++;
-               }
-               if (GABA.value > 3 && _5HT.value > 1 && Dopa.value > 1)
-               {
-                   Dopa.value++;
-                   _5HT.value++;
-               }
-           }
-       }
-
-       if (nombre == "5HT" && _5HT.value > 1)
-       {
-           _5HT.value--;
-       }
-
-       *********************************/
 }
