@@ -27,6 +27,7 @@ public class Exp_Gradual : MonoBehaviour
     public Text TextoLugar;
     public Image ImagenCerebro;
     public Image carita;
+    public Image PanelIndeterminado;
 
     Text TextoGlu;
     Text TextoDopa;
@@ -36,9 +37,9 @@ public class Exp_Gradual : MonoBehaviour
 
     public enum Lugares : int
     {
-        AMIGDALA = 0,
-        HIPOTALAMO,
-        HIPOCAMPO
+        HIPOTALAMO = 0,
+        HIPOCAMPO,
+        AMIGDALA
     }
 
     public enum Emociones : int
@@ -70,9 +71,10 @@ public class Exp_Gradual : MonoBehaviour
         PanelEmocion.gameObject.SetActive(false);
         InicializarSliders();
 
-        ListaLugares.Add("Amígdala");
         ListaLugares.Add("Hipotálamo");
         ListaLugares.Add("Hipocampo");
+        ListaLugares.Add("Amígdala");
+        
 
         ListaEmo.Add("Neutral");
         ListaEmo.Add("Miedo");
@@ -179,21 +181,21 @@ public class Exp_Gradual : MonoBehaviour
                 {
 
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Miedo1";
+                    TextoEmocion.text = "Miedo (30 %)";
                     banderaEmo = true;
                     CambiarImagenCara("Miedo1", carita);
                 }
                 if (nivel > 16 && nivel < 20)
                 {
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Miedo2";
+                    TextoEmocion.text = "Miedo (60 %)";
                     banderaEmo = true;
                     CambiarImagenCara("Miedo2", carita);
                 }
                 if (nivel > 19 && nivel < 22)
                 {
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Miedo3";
+                    TextoEmocion.text = "Miedo (100 %)";
                     banderaEmo = true;
                     CambiarImagenCara("Miedo3", carita);
                 }
@@ -220,7 +222,7 @@ public class Exp_Gradual : MonoBehaviour
                 if (nivel > 14 && nivel < 17)
                 {
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Ira1";
+                    TextoEmocion.text = "Ira (30 %)";
                     banderaEmo = true;
                     carita.gameObject.SetActive(true);
                     CambiarImagenCara("Ira1", carita);
@@ -228,7 +230,7 @@ public class Exp_Gradual : MonoBehaviour
                 if (nivel > 16 && nivel < 20)
                 {
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Ira2";
+                    TextoEmocion.text = "Ira (60 %)";
                     banderaEmo = true;
                     carita.gameObject.SetActive(true);
                     CambiarImagenCara("Ira2", carita);
@@ -236,7 +238,7 @@ public class Exp_Gradual : MonoBehaviour
                 if (nivel > 19 && nivel < 22)
                 {
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Ira3";
+                    TextoEmocion.text = "Ira (100 %)";
                     banderaEmo = true;
                     carita.gameObject.SetActive(true);
                     CambiarImagenCara("Ira3", carita);
@@ -252,7 +254,7 @@ public class Exp_Gradual : MonoBehaviour
                 if (nivel > 13 && nivel < 17)
                 {
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Amor1";
+                    TextoEmocion.text = "Amor (30 %)";
                     banderaEmo = true;
                     carita.gameObject.SetActive(true);
                     CambiarImagenCara("Amor1", carita);
@@ -260,7 +262,7 @@ public class Exp_Gradual : MonoBehaviour
                 if (nivel > 16 && nivel < 20)
                 {
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Amor2";
+                    TextoEmocion.text = "Amor (60 %)";
                     banderaEmo = true;
                     carita.gameObject.SetActive(true);
                     CambiarImagenCara("Amor2", carita);
@@ -268,7 +270,7 @@ public class Exp_Gradual : MonoBehaviour
                 if (nivel > 19 && nivel < 22)
                 {
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Amor3";
+                    TextoEmocion.text = "Amor (100 %)";
                     banderaEmo = true;
                     carita.gameObject.SetActive(true);
                     CambiarImagenCara("Amor3", carita);
@@ -294,7 +296,7 @@ public class Exp_Gradual : MonoBehaviour
                 if (nivel > 7 && nivel < 10) //Entre 8 y 9
                 {
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Depresión1";
+                    TextoEmocion.text = "Depresión (30 %)";
                     banderaEmo = true;
                     carita.gameObject.SetActive(true);
                     CambiarImagenCara("Depresion1", carita);
@@ -302,7 +304,7 @@ public class Exp_Gradual : MonoBehaviour
                 if (nivel > 9 && nivel < 13) //Entre 10 y 12
                 {
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Depresión2";
+                    TextoEmocion.text = "Depresión (60 %)";
                     banderaEmo = true;
                     carita.gameObject.SetActive(true);
                     CambiarImagenCara("Depresion2", carita);
@@ -310,7 +312,7 @@ public class Exp_Gradual : MonoBehaviour
                 if (nivel > 12 && nivel < 15) //Entre 13 y 14
                 {
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Depresión3";
+                    TextoEmocion.text = "Depresión (100 %)";
                     banderaEmo = true;
                     carita.gameObject.SetActive(true);
                     CambiarImagenCara("Depresion3", carita);
@@ -327,7 +329,7 @@ public class Exp_Gradual : MonoBehaviour
                 if (nivel > 7 && nivel < 10) //Entre 8 y 9
                 {
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Felicidad1";
+                    TextoEmocion.text = "Felicidad (30 %)";
                     banderaEmo = true;
                     carita.gameObject.SetActive(true);
                     CambiarImagenCara("Felicidad1", carita);
@@ -335,7 +337,7 @@ public class Exp_Gradual : MonoBehaviour
                 if (nivel > 9 && nivel < 13) //Entre 10 y 12
                 {
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Felicidad2";
+                    TextoEmocion.text = "Felicidad (60 %)";
                     banderaEmo = true;
                     carita.gameObject.SetActive(true);
                     CambiarImagenCara("Felicidad2", carita);
@@ -343,7 +345,7 @@ public class Exp_Gradual : MonoBehaviour
                 if (nivel > 12 && nivel < 15) //Entre 13 y 14
                 {
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Felicidad3";
+                    TextoEmocion.text = "Felicidad (100 %)";
                     banderaEmo = true;
                     carita.gameObject.SetActive(true);
                     CambiarImagenCara("Felicidad3", carita);
@@ -358,7 +360,7 @@ public class Exp_Gradual : MonoBehaviour
                 if (Glu.value == 5)
                 {
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Ansiedad1";
+                    TextoEmocion.text = "Ansiedad (30 %)";
                     banderaEmo = true;
                     carita.gameObject.SetActive(true);
                     CambiarImagenCara("Ansiedad1", carita);
@@ -366,7 +368,7 @@ public class Exp_Gradual : MonoBehaviour
                 if (Glu.value == 6)
                 {
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Ansiedad2";
+                    TextoEmocion.text = "Ansiedad (60 %)";
                     banderaEmo = true;
                     carita.gameObject.SetActive(true);
                     CambiarImagenCara("Ansiedad2", carita);
@@ -374,7 +376,7 @@ public class Exp_Gradual : MonoBehaviour
                 if (Glu.value == 7)
                 {
                     PanelEmocion.gameObject.SetActive(true);
-                    TextoEmocion.text = "Ansiedad3";
+                    TextoEmocion.text = "Ansiedad (100 %)";
                     banderaEmo = true;
                     carita.gameObject.SetActive(true);
                     CambiarImagenCara("Ansiedad3", carita);
@@ -508,18 +510,20 @@ public class Exp_Gradual : MonoBehaviour
 
     public void IrEmoción()
     {
-        if (TextoEmocion.text == "Miedo1" || TextoEmocion.text == "Miedo2" || TextoEmocion.text == "Miedo3")
+        if (TextoEmocion.text == "Miedo (30 %)" || TextoEmocion.text == "Miedo (60 %)" || TextoEmocion.text == "Miedo (100 %)")
             SceneManager.LoadScene("EscenaMiedo_TR");
-        if (TextoEmocion.text == "Ira1" || TextoEmocion.text == "Ira2" || TextoEmocion.text == "Ira3")
+        if (TextoEmocion.text == "Ira (30 %)" || TextoEmocion.text == "Ira (60 %)" || TextoEmocion.text == "Ira (100 %)")
             SceneManager.LoadScene("EscenaIRA_TR");
-        if (TextoEmocion.text == "Depresión1" || TextoEmocion.text == "Depresión2" || TextoEmocion.text == "Depresión3")
+        if (TextoEmocion.text == "Depresión (30 %)" || TextoEmocion.text == "Depresión (60 %)" || TextoEmocion.text == "Depresión (100 %)")
             SceneManager.LoadScene("EscenaDepresion_TR");
-        if (TextoEmocion.text == "Felicidad1" || TextoEmocion.text == "Felicidad2" || TextoEmocion.text == "Felicidad3")
+        if (TextoEmocion.text == "Felicidad (30 %)" || TextoEmocion.text == "Felicidad (60 %)" || TextoEmocion.text == "Felicidad (100 %)")
             SceneManager.LoadScene("EscenaFelicidad_TR");
-        if (TextoEmocion.text == "Ansiedad1" || TextoEmocion.text == "Ansiedad2" || TextoEmocion.text == "Ansiedad3")
+        if (TextoEmocion.text == "Ansiedad (30 %)" || TextoEmocion.text == "Ansiedad (60 %)" || TextoEmocion.text == "Ansiedad (100 %)")
             SceneManager.LoadScene("EscenaAnsiedad_TR");
-        if (TextoEmocion.text == "Amor1" || TextoEmocion.text == "Amor2" || TextoEmocion.text == "Amor3")
+        if (TextoEmocion.text == "Amor (30 %)" || TextoEmocion.text == "Amor (60 %)" || TextoEmocion.text == "Amor (100 %)")
             SceneManager.LoadScene("EscenaAmor_TR");
+        if (TextoEmocion.text == "Indeterminado")
+            PanelIndeterminado.gameObject.SetActive(true);
     }
 
     public void Incremento(string nombre)
