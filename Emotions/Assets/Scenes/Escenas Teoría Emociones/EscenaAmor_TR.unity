@@ -466,10 +466,10 @@ RectTransform:
   m_Father: {fileID: 829308251}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &39764859
 MonoBehaviour:
@@ -956,8 +956,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 230.73, y: 0}
-  m_SizeDelta: {x: -392.54, y: -0.000015259}
+  m_AnchoredPosition: {x: 230.73, y: 0.000015258789}
+  m_SizeDelta: {x: -392.5, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &76721034
 MonoBehaviour:
@@ -2757,8 +2757,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -98.7, y: 0}
-  m_SizeDelta: {x: 32, y: 26}
+  m_AnchoredPosition: {x: -92.6, y: 0.054475}
+  m_SizeDelta: {x: 32, y: 26.109}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &200492749
 MonoBehaviour:
@@ -3943,7 +3943,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -174.64998}
+  m_AnchoredPosition: {x: 0.000020265776, y: -174.64998}
   m_SizeDelta: {x: 0, y: 349.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &416491110
@@ -6918,8 +6918,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.61499023}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 10.5, y: 0}
+  m_SizeDelta: {x: 153.39, y: 26.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &829308252
 MonoBehaviour:
@@ -7056,7 +7056,7 @@ MonoBehaviour:
   m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.6901961}
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
 --- !u!1 &840855954
@@ -8301,10 +8301,10 @@ RectTransform:
   m_Father: {fileID: 76721033}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.000019073}
-  m_SizeDelta: {x: 20, y: 379.01}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -10, y: 0.000015258789}
+  m_SizeDelta: {x: 20, y: -0.98999023}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &987985569
 MonoBehaviour:
@@ -8345,8 +8345,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1586544181}
   m_HandleRect: {fileID: 1586544180}
   m_Direction: 2
-  m_Value: 0.99999905
-  m_Size: 0.9078156
+  m_Value: 0.9999995
+  m_Size: 0.9078157
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9023,7 +9023,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -12500,10 +12500,10 @@ RectTransform:
   m_Father: {fileID: 1994052616}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -539, y: -359.61}
-  m_SizeDelta: {x: 130, y: 30}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -333, y: -156.99}
+  m_SizeDelta: {x: 130, y: 34.972}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1583672983
 MonoBehaviour:
@@ -12540,8 +12540,8 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 0.28773582, b: 0.2935266, a: 1}
-    m_HighlightedColor: {r: 1, g: 0, b: 0, a: 1}
+    m_NormalColor: {r: 0.23529412, g: 0.7019608, b: 0.44313726, a: 1}
+    m_HighlightedColor: {r: 0.24313724, g: 1, b: 0.5341732, a: 1}
     m_PressedColor: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
