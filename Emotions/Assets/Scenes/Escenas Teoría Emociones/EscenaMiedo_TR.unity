@@ -1316,7 +1316,7 @@ RectTransform:
   m_LocalScale: {x: 0.9999544, y: 0.9999544, z: 0.9999544}
   m_Children: []
   m_Father: {fileID: 615565235}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1357,7 +1357,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -110.77}
+  m_AnchoredPosition: {x: 0, y: -110.76999}
   m_SizeDelta: {x: 0, y: 165.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &127743718
@@ -4343,8 +4343,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000015258789, y: -203.55}
-  m_SizeDelta: {x: 0, y: 407.13}
+  m_AnchoredPosition: {x: 0.000015258789, y: -264.31}
+  m_SizeDelta: {x: 0, y: 528.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &608294073
 GameObject:
@@ -4538,6 +4538,7 @@ RectTransform:
   m_Children:
   - {fileID: 1994052616}
   - {fileID: 505984076}
+  - {fileID: 2099209735}
   - {fileID: 127253173}
   - {fileID: 1124911332}
   m_Father: {fileID: 995733689}
@@ -6244,9 +6245,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 097e62753ff2fed46bf5295d24d6da86, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e4b393bb2df4f7142a620c48c22b48fa, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -6277,8 +6278,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.13822937}
-  m_SizeDelta: {x: -156.61, y: -13.279999}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -71.89, y: -13.653}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &923360433
 GameObject:
@@ -6917,7 +6918,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.002670288, y: -45.699997}
-  m_SizeDelta: {x: -0.02, y: 359.02}
+  m_SizeDelta: {x: -0.02, y: 483.12}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &989820966
 MonoBehaviour:
@@ -6939,13 +6940,15 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "- Darwin C., Eckman P. (1998), Ed Oxford University Press \u201CThe Expression
-    of the Emotions in Man and Animal\u201D\r\n\n- Gr\xE9zes J., Pichon S., de Gelder
-    B. (2006) \u201CPerceiving fear in dynamic body expression\u201D \n\n- Izquierdo
-    I, Furini CRG, Myskiw JC (2016) . \u201CFear memory\u201D. Physiol Rev \r\n\n-
-    Pinel JPJ, \u201CBiopsicolog\xEDa\u201D Ed Pearson educaci\xF3n S.A., Madrid,
-    2007 \r\n\n- Scherer K., Eckman P. (1984) Lawrence Erblaum Associates Inc., \u201CApproaches
-    to Emotion\u201D (Habla un poco sobre todas las expresiones)\r\n"
+  m_text: "- DARWIN C. \u201CThe Expression of the Emotions in Man and Animal\u201D.
+    ECKMAN P. 3ra. Ed. New York: Oxford University Press, 1998. 472 p. ISBN: 9780195158069\r\n\r\n-
+    GR\xC8ZES J., PICHON S., DE GELDER B. \u201CPerceiving fear in dynamic body expression\u201D.
+    NeuroImage. 2007,vol 35, n\xFAm 2, Pages 959-967.\r\n\r\n- IZQUIERDO I., FURINI
+    CRG, MYSKIW JC . \u201CFear memory\u201D. Psychological Review. 2016 vol 96, n\xFAm
+    2, p. 695-750\r\n\r\n- PINEL JPJ, \u201CBiopsicolog\xEDa\u201D, 6ta ed, Ed PEARSON
+    EDUCACI\xD3N, SA., Madrid, 2007, 640 p., ISBN 13:978-84-7829-100-7.\r\n\r\n- SCHERER
+    K., ECKMAN P. (1984) Lawrence Erblaum Associates Inc., \u201CApproaches to Emotion\u201D.
+    Hillsdale: Lawrence Elbaum Associates, 1984. 426 p.  ISBN: 9780898593501\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -7014,12 +7017,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 989820966}
-    characterCount: 484
+    characterCount: 679
     spriteCount: 0
-    spaceCount: 84
-    wordCount: 77
+    spaceCount: 109
+    wordCount: 105
     linkCount: 0
-    lineCount: 17
+    lineCount: 23
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -7139,7 +7142,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 615565235}
-  - {fileID: 2099209735}
   - {fileID: 1873055500}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -7569,7 +7571,7 @@ RectTransform:
   - {fileID: 1936564103}
   - {fileID: 735103911}
   m_Father: {fileID: 615565235}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -13815,7 +13817,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000000059045217, y: -326.09}
+  m_AnchoredPosition: {x: 0.000015251707, y: -326.09}
   m_SizeDelta: {x: 0, y: 652.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1792484931
@@ -14328,7 +14330,7 @@ RectTransform:
   - {fileID: 1530756180}
   - {fileID: 2141188244}
   m_Father: {fileID: 995733689}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -14400,7 +14402,7 @@ RectTransform:
   m_GameObject: {fileID: 1902444699}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9991012, y: 0.9991012, z: 0.9991012}
+  m_LocalScale: {x: 1.0000112, y: 1.0000112, z: 1.0000112}
   m_Children:
   - {fileID: 2048755088}
   m_Father: {fileID: 1873055500}
@@ -14408,7 +14410,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -30.015503, y: -31.194092}
+  m_AnchoredPosition: {x: -34.50003, y: -31.700012}
   m_SizeDelta: {x: 50.359985, y: 51.410004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1902444701
@@ -15350,12 +15352,12 @@ RectTransform:
   m_LocalScale: {x: 0.9999544, y: 0.9999544, z: 0.9999544}
   m_Children:
   - {fileID: 187188662}
-  m_Father: {fileID: 995733689}
-  m_RootOrder: 1
+  m_Father: {fileID: 615565235}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -34.499977, y: -31.70002}
+  m_AnchoredPosition: {x: -34.5, y: -31.700012}
   m_SizeDelta: {x: 50.359985, y: 51.410004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2141188243

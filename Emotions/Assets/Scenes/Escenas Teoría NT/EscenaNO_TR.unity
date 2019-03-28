@@ -203,7 +203,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 82437201}
-  - {fileID: 1185047718}
   - {fileID: 2117518190}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -1531,7 +1530,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -2.0725193, y: -53.118595}
-  m_SizeDelta: {x: 361.2, y: 303.5}
+  m_SizeDelta: {x: 361.2, y: 461.64}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &296296157
 MonoBehaviour:
@@ -1553,12 +1552,16 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "- Cavas M,J. F. Navarro (2014) \u201CInteracci\xF3n \xF3xido n\xEDtrico-dopamina:
-    estudios farmacol\xF3gicos y conductuales\u201D \r\n\r\n- Dawson T, Snyder S (1994)
-    \u201CGases as Biological Messengers: Nitric Oxide and Carbon Monoxide in the
-    Brain\u201D \r\n\r\n- Solomon H. Snyder, Samie R. Jaffrey, Randa Zakhary (1998)
-    \u201CNitric oxide and carbon monoxide: parallel roles as neural messengers\u201D
-    \r\n\r\n- Trujillo M. (2008) \u201COxido N\xEDtrico:Implicaciones Fisiopatol\xF3gicas\u201D "
+  m_text: "- CAVAS M.; NAVARRO J. F.  \u201CInteracci\xF3n \xF3xido n\xEDtrico-dopamina:
+    estudios farmacol\xF3gicos y conductuales\u201D. Psiquiatr\xEDa biol\xF3gica:
+    Publicaci\xF2n oficial de la  Sociedad Espa\xF1ola de Psiquiatr\xEDa Biol\xF3gica.
+    2005, vol. 12, n\xFAm. 2, p. 52-57\r\n\r\n- DAWSON T.; SNYDER S. \u201CGases as
+    Biological Messengers: Nitric Oxide and Carbon Monoxide in the Brain\u201D. Journal
+    of Neuroscience. 1994, vol. 14, n\xFAm. 9, p. 5147-5159\r\n\r\n- SOLOMON H. S.;
+    SAMIE R. J.; RANDA Z. \u201CNitric oxide and carbon monoxide: parallel roles as
+    neural messengers\u201D. Brain Research Reviews. 1998, vol. 26, n\xFAm. 2-3, p.
+    167-175.\r\n\r\n- TRUJILLO M. (2008) \u201COxido N\xEDtrico:Implicaciones Fisiopatol\xF3gicas\u201D.
+    Revista Colombiana de Anestesiolog\xEDa. 2008, vol. 36, n\xFAm. 1, p. 45-52. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -1627,12 +1630,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 0}
-    characterCount: 428
+    characterCount: 718
     spriteCount: 0
-    spaceCount: 64
-    wordCount: 60
+    spaceCount: 110
+    wordCount: 106
     linkCount: 0
-    lineCount: 14
+    lineCount: 22
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -4038,6 +4041,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1988487228}
+  - {fileID: 1185047718}
+  - {fileID: 1026005136}
   - {fileID: 1562382899}
   m_Father: {fileID: 82437201}
   m_RootOrder: 0
@@ -5550,6 +5555,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1026005133}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &652545675
@@ -6274,7 +6290,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 1.6756744, y: 1.5571594}
-  m_SizeDelta: {x: 3.4, y: 343.74}
+  m_SizeDelta: {x: 3.4, y: 515.18}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &975945720
 GameObject:
@@ -6746,6 +6762,80 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 197.92, y: 95.074}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1026005133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1026005136}
+  - component: {fileID: 1026005135}
+  - component: {fileID: 1026005134}
+  m_Layer: 5
+  m_Name: Panel invisible
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1026005134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026005133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1026005135
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026005133}
+  m_CullTransparentMesh: 0
+--- !u!224 &1026005136
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026005133}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999544, y: 0.9999544, z: 0.9999544}
+  m_Children: []
+  m_Father: {fileID: 526442695}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.21154785}
+  m_SizeDelta: {x: 10.530029, y: 8.97998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1089403734
 GameObject:
@@ -7328,12 +7418,12 @@ RectTransform:
   m_LocalScale: {x: 1.0004042, y: 1.0004042, z: 1.0004042}
   m_Children:
   - {fileID: 1744667128}
-  m_Father: {fileID: 3152530}
+  m_Father: {fileID: 526442695}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -36.099976, y: -36}
+  m_AnchoredPosition: {x: -30.83496, y: -31.51001}
   m_SizeDelta: {x: 50.359985, y: 51.410004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1186052869
@@ -7696,7 +7786,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000015256586, y: 0.000030517578}
+  m_AnchoredPosition: {x: -0.000015180839, y: 0.000030517578}
   m_SizeDelta: {x: -17.9, y: 429.07}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1324612644
@@ -9820,7 +9910,7 @@ RectTransform:
   - {fileID: 1913060102}
   - {fileID: 1089403735}
   m_Father: {fileID: 526442695}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10131,6 +10221,17 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 652545671}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1026005133}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -13871,7 +13972,7 @@ RectTransform:
   - {fileID: 131121242}
   - {fileID: 35545378}
   m_Father: {fileID: 3152530}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}

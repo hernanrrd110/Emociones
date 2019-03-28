@@ -203,7 +203,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 82437201}
-  - {fileID: 780101192}
   - {fileID: 1692767517}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -582,6 +581,80 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83315273}
+  m_CullTransparentMesh: 0
+--- !u!1 &85287795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 85287796}
+  - component: {fileID: 85287798}
+  - component: {fileID: 85287797}
+  m_Layer: 5
+  m_Name: Panel invisible
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &85287796
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85287795}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999544, y: 0.9999544, z: 0.9999544}
+  m_Children: []
+  m_Father: {fileID: 526442695}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.21154785}
+  m_SizeDelta: {x: 10.530029, y: 8.97995}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &85287797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85287795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &85287798
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85287795}
   m_CullTransparentMesh: 0
 --- !u!1 &90220318
 GameObject:
@@ -1925,7 +1998,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -1.7, y: -45.872}
-  m_SizeDelta: {x: 361.2, y: 314.26}
+  m_SizeDelta: {x: 361.2, y: 480}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &296296157
 MonoBehaviour:
@@ -1947,13 +2020,17 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "- Flores Soto ME, Segura Torres JE, (2005) \u201CEstructura y funci\xF3n
-    de los receptores acetilcolina de tipo muscar\xEDnico y nicot\xEDnico\u201D\r\n\r\n-
-    O\u2019Malley Donald M., Sandell Julie H., Masland Richard H. \u201CCo-release
-    of Acetylcholine and GABA by the Starburst Amacrine Cells\u201D \r\n\r\n- Palmero
-    Cantero F. (2011) \u201CManual de teor\xEDas emocionales y motivacionales\u201D\r\n\r\n-
-    Ritz T. (2010) \u201CAirway response to emotional stimuli in asthma: the role
-    of the cholinergic pathway\u201D \r\n"
+  m_text: "- FLORES SOTO M. E.; SEGURA TORRES J. E. \u201CEstructura y funci\xF3n
+    de los receptores acetilcolina de tipo muscar\xEDnico y nicot\xEDnico\u201D. Revista
+    Mexicana de Neurociencia. 2005, vol. 6, n\xFAm. 4, p. 315-326.\r\n\r\n- O\u2019MALLEY
+    DONALD M., SANDELL JULIE H., MASLAND RICHARD H.2 \u201CCo-release of Acetylcholine
+    and GABA by the Starburst Amacrine Cells\u201D 1992, The Journal of neuroscience
+    : the official journal of the Society for Neuroscience. vol 12, n\xFAm 4, p. 1394-408.\r\n\r\n-
+    PALMERO CANTERO F. \u201CManual de teor\xEDas emocionales y motivacionales\u201D.
+    1\xBA Ed, Castell\xF3n de la Plana: Universitat Jaume I. Servei de Comunicacio\u0301
+    i Publicacions, 2011, ISBN: 9788469420874.\r\n\r\n- RITZ T. (2010) \u201CAirway
+    response to emotional stimuli in asthma: the role of the cholinergic pathway\u201D.
+    Journal of Applied Physiology. 2010, Vol 108, n\xFAm 6, p. 1542-1549. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -2022,12 +2099,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 0}
-    characterCount: 452
+    characterCount: 814
     spriteCount: 0
-    spaceCount: 73
-    wordCount: 68
+    spaceCount: 130
+    wordCount: 127
     linkCount: 0
-    lineCount: 15
+    lineCount: 23
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -4570,6 +4647,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1988487228}
+  - {fileID: 780101192}
+  - {fileID: 85287796}
   - {fileID: 1454254564}
   m_Father: {fileID: 82437201}
   m_RootOrder: 0
@@ -5234,12 +5313,12 @@ RectTransform:
   m_LocalScale: {x: 1.0004042, y: 1.0004042, z: 1.0004042}
   m_Children:
   - {fileID: 798985723}
-  m_Father: {fileID: 3152530}
+  m_Father: {fileID: 526442695}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -36.099976, y: -36}
+  m_AnchoredPosition: {x: -30.83496, y: -31.51001}
   m_SizeDelta: {x: 50.359985, y: 51.410004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &786279748
@@ -9484,7 +9563,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0000000023320867, y: 0.000045776367}
+  m_AnchoredPosition: {x: 0.000015258789, y: 0.000045776367}
   m_SizeDelta: {x: -17.9, y: 809.5}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1291319632
@@ -10090,7 +10169,7 @@ RectTransform:
   - {fileID: 1189348810}
   - {fileID: 2035048787}
   m_Father: {fileID: 526442695}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11160,7 +11239,7 @@ RectTransform:
   - {fileID: 1094986180}
   - {fileID: 821285249}
   m_Father: {fileID: 3152530}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -11990,6 +12069,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 85287795}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1730202136
@@ -12239,6 +12329,17 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1730202132}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 85287795}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -12815,8 +12916,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.6756744, y: 1.2077637}
-  m_SizeDelta: {x: 3.4, y: 335.21}
+  m_AnchoredPosition: {x: 1.6756744, y: 1.2072601}
+  m_SizeDelta: {x: 3.4, y: 527.4}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1896417853
 GameObject:

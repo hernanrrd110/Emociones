@@ -363,7 +363,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 82437201}
-  - {fileID: 1047720823}
   - {fileID: 1629151892}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -1033,6 +1032,17 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1771039841}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1519132845}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -2076,7 +2086,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -1.715, y: -45.867}
-  m_SizeDelta: {x: 361.2, y: 417.66}
+  m_SizeDelta: {x: 361.2, y: 593.1}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &296296157
 MonoBehaviour:
@@ -2098,14 +2108,19 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "- Andrade Salazar J. , Rodr\xEDguez R. A. , Campos Ram\xEDrez J. A. (2014)
-    \u201CGABA, depresi\xF3n y suicidio: aspectos epigen\xE9ticos asociados\u201D
-    \r\n \r\n- Franco-P\xE9rez J. , Ballesteros-Zebad\xFAa P., Custodio Veronica,Paz
-    Carlos (2012)\u201CPrincipales neurotransmisores involucrados en la regulaci\xF3n
-    del ciclo sue\xF1o-vigilia\u201D\r\n \r\n- Lorenzo Vel\xE1zquez B. (1984)\u201CAnales
-    de la Real Academia Nacional de Medicina: El neurotransmisor inhibidor GABA\u201D
-    \r\n \r\n- Redolar (2013), \u201CNeurociencia cognitiva\u201D, 1\xBA Ed\r\n\r\n-
-    Silber K. (1991),  ED Routledge, \u201CThe Physiological Basis of Behaviour\u201D"
+  m_text: "- ANDRADE SALAZAR J.; RODR\xCDGUEZ R. A.; CAMPOS RAM\xCDREZ J. A. \u201CGABA,
+    depresi\xF3n y suicidio: aspectos epigen\xE9ticos asociados\u201D. Psicologia.com.
+    2014, vol. 18, n\xFAm. 1\r\n \r\n- FRANCO-P\xC9REZ J.; BALLESTEROS-ZEBAD\xDAA
+    P.; CUSTODIO V.,PAZ C., (2012) \u201CPrincipales neurotransmisores involucrados
+    en la regulaci\xF3n del ciclo sue\xF1o-vigilia\u201D. Rev. Investigaci\xF3n Cl\xEDnica.
+    2012, vol. 64, n\xFAm. 2, p. 182-191\r\n \r\n- DE ANDRES RODRIGUEZ TRELLES F.
+    \u201CEl neurotransmisor inhibidor GABA: Base del mecanismo de accion de diversos
+    farmacoscon efectos sobre el sistema nervioso central\u201D. En: BENIGNO LORENZO
+    VELAZQUEZ D. \u201CAnales de la Real Academia Nacional de Medicina: El neurotransmisor
+    inhibidor GABA\u201D, Madrid: Real Academia Nacional de Medicina, 1984. p. 41\r\n
+    \r\n- REDOLAR R. \u201CNeurociencia cognitiva\u201D. Madrid: Editorial Panamericana,
+    2014. 820 p. EAN: 9788498354089\r\n\r\n- SILBER K., \u201CThe Physiological Basis
+    of Behaviour\u201D. 1ra Edici\xF3n. London: ED Routledge, 1999, ISBN 0-415-18653-6"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -2174,12 +2189,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 0}
-    characterCount: 550
+    characterCount: 951
     spriteCount: 0
-    spaceCount: 82
-    wordCount: 73
+    spaceCount: 137
+    wordCount: 133
     linkCount: 0
-    lineCount: 20
+    lineCount: 28
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -3121,6 +3136,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1988487228}
+  - {fileID: 1047720823}
+  - {fileID: 1519132848}
   - {fileID: 1036499560}
   m_Father: {fileID: 82437201}
   m_RootOrder: 0
@@ -6224,7 +6241,7 @@ RectTransform:
   - {fileID: 807296955}
   - {fileID: 1375445641}
   m_Father: {fileID: 526442695}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6385,12 +6402,12 @@ RectTransform:
   m_LocalScale: {x: 1.0004042, y: 1.0004042, z: 1.0004042}
   m_Children:
   - {fileID: 44503629}
-  m_Father: {fileID: 3152530}
+  m_Father: {fileID: 526442695}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -36.099976, y: -36}
+  m_AnchoredPosition: {x: -30.83496, y: -31.51001}
   m_SizeDelta: {x: 50.359985, y: 51.410004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1070066724
@@ -7616,7 +7633,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000015258789, y: 0.000030517578}
+  m_AnchoredPosition: {x: 5.9279615e-10, y: 0.000030517578}
   m_SizeDelta: {x: -17.9, y: 688.4}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1274361071
@@ -9444,8 +9461,82 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 1.6756744, y: 1.5621338}
-  m_SizeDelta: {x: 3.4, y: 470.4}
+  m_SizeDelta: {x: 3.4, y: 644.4}
   m_Pivot: {x: 0.5, y: 1}
+--- !u!1 &1519132845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1519132848}
+  - component: {fileID: 1519132847}
+  - component: {fileID: 1519132846}
+  m_Layer: 5
+  m_Name: Panel invisible
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1519132846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519132845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1519132847
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519132845}
+  m_CullTransparentMesh: 0
+--- !u!224 &1519132848
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519132845}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999544, y: 0.9999544, z: 0.9999544}
+  m_Children: []
+  m_Father: {fileID: 526442695}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.21154785}
+  m_SizeDelta: {x: 10.530029, y: 8.979919}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1559563727
 GameObject:
   m_ObjectHideFlags: 0
@@ -10038,7 +10129,7 @@ RectTransform:
   - {fileID: 1896982032}
   - {fileID: 570503160}
   m_Father: {fileID: 3152530}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -11270,6 +11361,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1519132845}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1771039845
@@ -12155,7 +12257,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -4.159912, y: 2.379}
+  m_AnchoredPosition: {x: -4.159912, y: 2.3789978}
   m_SizeDelta: {x: -50.8, y: -59.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1966583158

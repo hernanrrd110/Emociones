@@ -204,7 +204,6 @@ RectTransform:
   m_Children:
   - {fileID: 82437201}
   - {fileID: 2079901029}
-  - {fileID: 1404707146}
   - {fileID: 958657182}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -1068,6 +1067,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 526442695}
+  - {fileID: 1404707146}
+  - {fileID: 957425990}
   - {fileID: 1494521477}
   m_Father: {fileID: 3152530}
   m_RootOrder: 0
@@ -2380,6 +2381,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 957425987}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &273424543
@@ -2812,7 +2824,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -4.0199, y: -45.86}
-  m_SizeDelta: {x: 349.73, y: 997.7}
+  m_SizeDelta: {x: 349.7, y: 1399}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &296296157
 MonoBehaviour:
@@ -2834,26 +2846,35 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "- Aron A. (2005) \u201CReward, Motivation, and Emotion Systems Associated
-    With Early-Stage Intense Romantic Love\u201D \r\n\r\n- Bahena Trujillo R, Flores
-    G, Arias Monta\xF1o J, (2000) \u201CDopamina: Sintesis, liberaci\xF3n y receptores
-    en el sistema nervioso central\u201D\r\n\r\n- Ban T, Udabe R. \u201CThe neurotransmitter
-    era in neuropsychopharmacology\u201D, , ED. Polemos (2006), Buenos Aires, Argentina.\r\n\r\n-
-    Franco-P\xE9rez J. , Ballesteros-Zebad\xFAa P., Custodio Veronica,Paz Carlos (2012)\u201CPrincipales
-    neurotransmisores involucrados en la regulaci\xF3n del ciclo sue\xF1o-vigilia\u201D\r\n\r\n-
-    Howes O, Kapur S, (2009) \u201CThe Dopamine Hypothesis of Schizophrenia: Version
-    III\u2014The Final Common Pathway\u201D\r\n\r\n- Guadarrama L., Escobar A, Zhang
-    L., (1998) \u201CBases neuroqu\xEDmicas y neuroanat\xF3micas de la depresi\xF3n\u201D
-    \r\n\r\n- Palmero Cantero F. (2011) \u201CManual de teor\xEDas emocionales y motivacionales\u201D\r\n\r\n-
-    Pav\xF3n Fuentes N, Gonz\xE1lez Fraguela M.E., Rocha Arrieta L, Mart\xEDnez Mart\xED
+  m_text: "- ARON A. \u201CReward, Motivation, and Emotion Systems Associated With
+    Early-Stage Intense Romantic Love\u201D. Journal of Neurophysiology. 2005, vol.
+    94, n\xFAm. 1, p. 327-337\r\n\r\n- BAHENA TRUJILLO R.; FLORES G.; ARIAS MONTA\xD1O
+    J. \u201CDopamina: S\xEDntesis, liberaci\xF3n y receptores en el sistema nervioso
+    central\u201D, Biomed. 2000, vol. 11, p. 39-60.\r\n\r\n- BAN T.; UDABE R. \u201CThe
+    neurotransmitter era in neuropsychopharmacology\u201D, Buenos Aires: Polemos,
+    2006. 292 p. ISBN-13: 9789879165683\r\n\r\n- FRANCO-P\xC9REZ J.; BALLESTEROS-ZEBAD\xDAA
+    P.; CUSTODIO V.,PAZ C., (2012) \u201CPrincipales neurotransmisores involucrados
+    en la regulaci\xF3n del ciclo sue\xF1o-vigilia\u201D. Rev. Investigaci\xF3n Cl\xEDnica.
+    2012, vol. 64, n\xFAm. 2, p. 182-191\r\n\r\n- GUADARRAMA L., ESCOBAR A, ZHANG
+    L., \u201CBases neuroqu\xEDmicas y neuroanat\xF3micas de la depresi\xF3n\u201D.
+    Revista de la Facultad de Medicina UNAM. 2006, vol 49, n\xFAm 2.\r\n\r\n- HOWES
+    O, KAPUR S, \u201CThe Dopamine Hypothesis of Schizophrenia: Version III\u2014The
+    Final Common Pathway\u201D Schizophrenia Bulletin, 2009, vol 35, n\xFAm 3, Pages
+    549\u2013562.\r\n\r\n- PALMERO CANTERO F. \u201CManual de teor\xEDas emocionales
+    y motivacionales\u201D. 1\xBA Ed, Castell\xF3n de la Plana: Universitat Jaume
+    I. Servei de Comunicacio\u0301 i Publicacions, 2011, ISBN: 9788469420874.\r\n\r\n-
+    PAV\xD3N FUENTES N, GONZ\xC1LEZ FRAGUELA M.E., ROCHA ARRIETA L, MART\xCDNEZ MART\xCD
     L (2005) \u201CEfecto de la lesi\xF3n de la sustancia negra pars compacta sobre
-    la liberaci\xF3n de glutamato y GABA en el n\xFAcleo pedunculopontino\u201D\r\n\r\n-
-    Siever L., (2008), \u201CNeurobiolog\xEDa de la agresividad y la violencia\u201D\r\n\r\n-
-    Yamamoto B, Novotney S, (1998) \u201CRegulation of extracelullar Dopamine by the
-    Norepinephrine Transporter\u201D\r\n\r\n- Yokoyama M. (2005)\u201CAmygdalic levels
-    of dopamine and serotonin rise upon exposure to conditioned fear stress without
-    elevation of glutamate\u201D\r\n\r\n- Zeki S. (2006) \u201CThe neurobiology of
-    love\u201D"
+    la liberaci\xF3n de glutamato y GABA en el n\xFAcleo pedunculopontino\u201D. Rev
+    Neurol. 2005, vol 40, n\xFAm 1, p. 23-29\r\n\r\n- SIEVER L , \u201CNeurobiology
+    of Aggression and Violence\u201D. American Journal of Psychiatry. 2008, vol. 165,
+    n\xFAm. 4, p. 429-442.\r\n\r\n- YAMAMOTO B, NOVOTNEY S, \u201CRegulation of extracelullar
+    Dopamine by the Norepinephrine Transporter\u201D. Journal of Neurochemistry. 1998,
+    vol 71, n\xFAm 1, July 1998, p. 274-280.\r\n\r\n- YOKOYAMA M. , \u201CAmygdalic
+    levels of dopamine and serotonin rise upon exposure to conditioned fear stress
+    without elevation of glutamate\u201D. Neuroscience Letters. 2005, vol 379, n\xFAm
+    1, p. 37-41.\r\n\r\n- ZEKI S. \u201CThe neurobiology of love\u201D. FEBS Letters.
+    2007 , vol 581, n\xFAm. 14, 12, p. 2575-2579.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -2899,7 +2920,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 1377
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -2922,12 +2943,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 0}
-    characterCount: 1420
+    characterCount: 2056
     spriteCount: 0
-    spaceCount: 212
-    wordCount: 203
+    spaceCount: 320
+    wordCount: 310
     linkCount: 0
-    lineCount: 49
+    lineCount: 67
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -3600,8 +3621,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.6754209, y: 0.000030517578}
-  m_SizeDelta: {x: 3.4, y: 1075.6}
+  m_AnchoredPosition: {x: 1.675415, y: 0.000030517578}
+  m_SizeDelta: {x: 3.4, y: 1457.5}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &388740483
 GameObject:
@@ -6735,6 +6756,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913059950}
   m_CullTransparentMesh: 0
+--- !u!1 &957425987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 957425990}
+  - component: {fileID: 957425989}
+  - component: {fileID: 957425988}
+  m_Layer: 5
+  m_Name: Panel invisible
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &957425988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957425987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &957425989
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957425987}
+  m_CullTransparentMesh: 0
+--- !u!224 &957425990
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957425987}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999544, y: 0.9999544, z: 0.9999544}
+  m_Children: []
+  m_Father: {fileID: 82437201}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.21154785}
+  m_SizeDelta: {x: 0, y: -0.000061035156}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &958657181
 GameObject:
   m_ObjectHideFlags: 0
@@ -6769,7 +6864,7 @@ RectTransform:
   - {fileID: 456577208}
   - {fileID: 1706453235}
   m_Father: {fileID: 3152530}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -9538,8 +9633,8 @@ RectTransform:
   m_LocalScale: {x: 1.0004042, y: 1.0004042, z: 1.0004042}
   m_Children:
   - {fileID: 2065222160}
-  m_Father: {fileID: 3152530}
-  m_RootOrder: 2
+  m_Father: {fileID: 82437201}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -10279,7 +10374,7 @@ RectTransform:
   - {fileID: 75010291}
   - {fileID: 1454664552}
   m_Father: {fileID: 82437201}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11611,6 +11706,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 957425987}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1744395786
@@ -12816,7 +12922,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.31, y: -0.14859009}
+  m_AnchoredPosition: {x: -2.3099976, y: -0.14859009}
   m_SizeDelta: {x: -47.09, y: -54.33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1966583158

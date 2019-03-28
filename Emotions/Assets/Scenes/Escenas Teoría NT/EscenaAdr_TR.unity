@@ -636,7 +636,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 526442695}
-  - {fileID: 1377754346}
   - {fileID: 815004878}
   m_Father: {fileID: 3152530}
   m_RootOrder: 0
@@ -2300,7 +2299,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -1.715, y: -45.872}
-  m_SizeDelta: {x: 361.2, y: 360.1}
+  m_SizeDelta: {x: 361.2, y: 437.92}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &296296157
 MonoBehaviour:
@@ -2322,14 +2321,16 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "- Meana J, Garcia J (2010) \u201CTransmisi\xF3n Catecolamin\xE9rgica: F\xE1rmacos
-    Agonistas Catecolamin\xE9rgicos\u201D \r\n\r\n- Mara\xF1on G., 1985 \u201CContribuci\xF3n
-    al estudio de la acci\xF3n emotiva de la adrenalina\u201D \r\n\r\n- Peaston R
-    (2004).\u201CMeasurement of Cathecolamines and their metabolites\u201D\r\n  \r\n-
-    Prieto Ramos A (2016) \u201CEfectos de la marihuana \u201CCannabis sativa\u201D
+  m_text: "- MARA\xD1ON G.,  \u201CContribuci\xF3n al estudio de la acci\xF3n emotiva
+    de la adrenalina\u201D. Estudios de psicolog\xEDa. 1985, vol 6, n\xFAm 21, p.
+    75-89.\r\n\r\n- PEASTON R.\u201CMeasurement of Cathecolamines and their metabolites\u201D
+    Annals of Clinical Biochemistry. 2004,  vol 41, n\xFAm 1, p. 17\u201338. \r\n
+    \ \r\n- PRIETO RAMOS A (2016) \u201CEfectos de la marihuana \u201CCannabis sativa\u201D
     sobre los niveles de Noradrenalina y Adrenalina en j\xF3venes consumidores, con
-    edades de 18-30 a\xF1os.\u201D\r\n\r\n- Purves D. \u201CInvitaci\xF3n a la NEUROCIENCIA\u201D
-    , 2001, ED M\xE9dica Panamericana, Buenos Aires"
+    edades de 18-30 a\xF1os.\u201D Director: Moreno Dur\xE1n, Carmen Helena, Universidad
+    Distrital Francisco Jos\xE9 de Caldas. Licenciatura en Biolog\xEDa, 2016\r\n\r\n-
+    PURVES D, AUGUSTINE G J, FITZPATRICK KATZ LAWRENCE C , \u201CInvitaci\xF3n a la
+    Neurociencia\u201D Ed Panamericana, Massachusetts. 2001, EAN: 9788498357547\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -2398,12 +2399,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 0}
-    characterCount: 524
+    characterCount: 709
     spriteCount: 0
-    spaceCount: 81
-    wordCount: 74
+    spaceCount: 112
+    wordCount: 105
     linkCount: 0
-    lineCount: 17
+    lineCount: 21
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -2809,6 +2810,17 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2010933283}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 789393216}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -3891,6 +3903,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1988487228}
+  - {fileID: 1377754346}
+  - {fileID: 789393217}
   - {fileID: 1351064121}
   m_Father: {fileID: 82437201}
   m_RootOrder: 0
@@ -5881,6 +5895,80 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -172.66}
   m_SizeDelta: {x: -37.701, y: 310.6}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &789393216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 789393217}
+  - component: {fileID: 789393219}
+  - component: {fileID: 789393218}
+  m_Layer: 5
+  m_Name: Panel invisible
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &789393217
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789393216}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999544, y: 0.9999544, z: 0.9999544}
+  m_Children: []
+  m_Father: {fileID: 526442695}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.21154785}
+  m_SizeDelta: {x: 10.530029, y: 8.97998}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &789393218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789393216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &789393219
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789393216}
+  m_CullTransparentMesh: 0
 --- !u!1 &789717897
 GameObject:
   m_ObjectHideFlags: 0
@@ -6122,7 +6210,7 @@ RectTransform:
   - {fileID: 1005411911}
   - {fileID: 273657823}
   m_Father: {fileID: 82437201}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -7845,7 +7933,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000015258789, y: 0.000015258789}
+  m_AnchoredPosition: {x: -0.000015258789, y: 0.000030517578}
   m_SizeDelta: {x: -17.9, y: 351.99}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1266139336
@@ -8757,7 +8845,7 @@ RectTransform:
   - {fileID: 474128335}
   - {fileID: 770672813}
   m_Father: {fileID: 526442695}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9398,12 +9486,12 @@ RectTransform:
   m_LocalScale: {x: 1.0004042, y: 1.0004042, z: 1.0004042}
   m_Children:
   - {fileID: 1381247675}
-  m_Father: {fileID: 82437201}
+  m_Father: {fileID: 526442695}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -36.099976, y: -36}
+  m_AnchoredPosition: {x: -30.83496, y: -31.51001}
   m_SizeDelta: {x: 50.359985, y: 51.410004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1381247674
@@ -9730,7 +9818,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 1.6906586, y: 0}
-  m_SizeDelta: {x: 3.43, y: 407.65}
+  m_SizeDelta: {x: 3.43, y: 487.45}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1432552847
 GameObject:
@@ -12962,7 +13050,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2048312382}
   m_HandleRect: {fileID: 2048312381}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0.9999991
   m_Size: 0.9529994
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -13405,6 +13493,17 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 2010933283}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 789393216}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:

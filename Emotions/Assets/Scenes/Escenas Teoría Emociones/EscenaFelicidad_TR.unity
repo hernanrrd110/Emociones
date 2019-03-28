@@ -3164,7 +3164,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0060424805, y: -22.849625}
+  m_AnchoredPosition: {x: 0.0060424805, y: -22.84961}
   m_SizeDelta: {x: -0.012023926, y: 45.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &395095872
@@ -5387,6 +5387,7 @@ RectTransform:
   m_Children:
   - {fileID: 1994052616}
   - {fileID: 227241250}
+  - {fileID: 2030830330}
   - {fileID: 628036713}
   - {fileID: 1982948572}
   m_Father: {fileID: 995733689}
@@ -5513,7 +5514,7 @@ RectTransform:
   m_LocalScale: {x: 0.9999544, y: 0.9999544, z: 0.9999544}
   m_Children: []
   m_Father: {fileID: 615565235}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -8272,7 +8273,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -45.699997}
-  m_SizeDelta: {x: 0, y: 375.26}
+  m_SizeDelta: {x: 0, y: 545.2}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &989820966
 MonoBehaviour:
@@ -8294,13 +8295,17 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "- Brouwer A., van Wouwe N., M\xFChl C., van Erp J., Toet A. (2013) \u201CPerceiving
-    blocks of emotional pictures and sounds: effects on physiological variables\u201D
-    \r\n\r\n- Darwin C., Eckman P. (1998), Ed Oxford University Press \u201CThe Expression
-    of the Emotions in Man and Animal\u201D\r\n\r\n- Nettle Daniel, (2005) \u201CHappiness:
-    The science behind your smile\u201D \r\n\r\n- Mathews Jose,(2013) \u201CNature
-    and Dynamics of Happiness: A Psychological View\u201D \r\n\r\n- Schultz W (2015).
-    \u201CNeuronal Reward and Decision Signals: From Theories to Data\u201D."
+  m_text: "- BROUWER A.; VAN WOUWE N.; M\xDCHL C.; VAN ERP J.; TOET A. \u201CPerceiving
+    blocks of emotional pictures and sounds: effects on physiological variables\u201D.
+    Frontiers in Human Neuroscience. 2013, vol. 7., n\xFAm. 295\r\n\r\n- DARWIN C.
+    \u201CThe Expression of the Emotions in Man and Animal\u201D. ECKMAN P. 3ra. Ed.
+    New York: Oxford University Press, 1998. 472 p. ISBN: 9780195158069\r\n\r\n- NETTLE
+    DANIEL, (2005) \u201CHappiness: The science behind your smile\u201D Oxford: OUP
+    Oxford, 2005, ISBN 0191604747, 9780191604744\r\n\r\n\r\n- MATHEWS J. ,\u201CNature
+    and Dynamics of Happiness: A Psychological View\u201D. Indo-Bhutan International
+    Conference On Gross National Happiness. 2013, Vol 2, p. 118-130. \r\n\r\n- SCHULTZ
+    W (2015). \u201CNeuronal Reward and Decision Signals: From Theories to Data\u201D.
+    Physiological Reviews. 2015, vol. 95, n\xFAm. 3, p. 853-951."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -8369,12 +8374,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 989820966}
-    characterCount: 505
+    characterCount: 797
     spriteCount: 0
-    spaceCount: 84
-    wordCount: 79
+    spaceCount: 126
+    wordCount: 121
     linkCount: 0
-    lineCount: 18
+    lineCount: 26
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -8494,7 +8499,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 615565235}
-  - {fileID: 2030830330}
   - {fileID: 1712211979}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -9137,7 +9141,7 @@ RectTransform:
   m_GameObject: {fileID: 1143432014}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9991012, y: 0.9991012, z: 0.9991012}
+  m_LocalScale: {x: 1.0000112, y: 1.0000112, z: 1.0000112}
   m_Children:
   - {fileID: 305089407}
   m_Father: {fileID: 1712211979}
@@ -9145,7 +9149,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -30.015503, y: -31.194092}
+  m_AnchoredPosition: {x: -34.50003, y: -31.700012}
   m_SizeDelta: {x: 50.359985, y: 51.410004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1143432016
@@ -9394,7 +9398,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -110.77}
+  m_AnchoredPosition: {x: 0, y: -110.76999}
   m_SizeDelta: {x: 0, y: 165.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1190733233
@@ -9558,8 +9562,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000015258789, y: -213.14697}
-  m_SizeDelta: {x: 0, y: 426.31}
+  m_AnchoredPosition: {x: 0.000015258789, y: -296.93884}
+  m_SizeDelta: {x: 0, y: 593.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1285102698
 GameObject:
@@ -11563,7 +11567,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00000004429442, y: -243.52583}
+  m_AnchoredPosition: {x: 0.00001525484, y: -243.52583}
   m_SizeDelta: {x: 0, y: 487.07}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1679939658
@@ -11964,7 +11968,7 @@ RectTransform:
   - {fileID: 4388781}
   - {fileID: 305867815}
   m_Father: {fileID: 995733689}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -15157,7 +15161,7 @@ RectTransform:
   - {fileID: 1800470560}
   - {fileID: 1821291519}
   m_Father: {fileID: 615565235}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -15360,9 +15364,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: ce94724502f7c354880735c4dc9f7c04, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f57ec26c6b50be84086440e3f3a83d18, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -15393,8 +15397,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.13822937}
-  m_SizeDelta: {x: -156.61, y: -13.279999}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -69.149994, y: -13.653}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2030830326
 GameObject:
@@ -15479,12 +15483,12 @@ RectTransform:
   m_LocalScale: {x: 0.9999544, y: 0.9999544, z: 0.9999544}
   m_Children:
   - {fileID: 1693808646}
-  m_Father: {fileID: 995733689}
-  m_RootOrder: 1
+  m_Father: {fileID: 615565235}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -34.499977, y: -31.70002}
+  m_AnchoredPosition: {x: -34.49997, y: -31.700012}
   m_SizeDelta: {x: 50.359985, y: 51.410004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2034850058

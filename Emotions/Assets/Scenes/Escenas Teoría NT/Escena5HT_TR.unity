@@ -438,7 +438,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 526442695}
-  - {fileID: 1099711154}
   - {fileID: 1544672369}
   m_Father: {fileID: 3152530}
   m_RootOrder: 0
@@ -2022,7 +2021,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.11997986, y: -46.04001}
-  m_SizeDelta: {x: 0, y: 436.92}
+  m_SizeDelta: {x: 0, y: 651.5}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &296296157
 MonoBehaviour:
@@ -2044,14 +2043,19 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "- Ban T, Udabe R. (2006),\u201CThe neurotransmitter era in neuropsychopharmacology\u201D,
-    ED. Polemos , Buenos Aires, Argentina\r\n\r\n- Cervino C. (2003),\u201CNeurofisiolog\xEDa\u201D,
-    Tomo II, ED Praia, Mor\xF3n, Argentina\r\n\r\n- Mosienko V, Beis D, Pasqualetti
-    M, Waider J, Matthes S (2015). \u201CLife without brain serotonin: Reevaluation
-    of serotonin function with mice deficient in brain serotonin synthesis\u201D \r\n\r\n-
-    Siever L. (2008), \u201CNeurobiolog\xEDa de la agresividad y la violencia\u201D
-    \r\n\r\n- Wurtman RJ, Wurtman JJ (1995) \u201CBrain Serotonin, Carbohydrate.Craving,
-    Obesity and Depression\u201D\r"
+  m_text: "- BAN T.; UDABE R. \u201CThe neurotransmitter era in neuropsychopharmacology\u201D,
+    Buenos Aires: Polemos, 2006. 292 p. ISBN-13: 9789879165683\r\n\r\n- CERVINO C.
+    \u201CNeurofisiolog\xEDa: Tomo II\u201D. 3ra Ed. Mor\xF3n: ED Praia, 2010.  384
+    p. ISBN: 978-987-9287-78-1\r\n\r\n- MOSIENKO V, BEIS D, PASQUALETTI M, WAIDER
+    J, MATTHES S. \u201CLife without brain serotonin: Reevaluation of serotonin function
+    with mice deficient in brain serotonin synthesis\u201D. Behavioural Brain Research.
+    2015, Volume 277, p. 78-88.\r\n\r\n- SIEVER L , \u201CNeurobiology of Aggression
+    and Violence\u201D. American Journal of Psychiatry. 2008, vol. 165, n\xFAm. 4,
+    p. 429-442.\r\n\r\n- WURTMAN RJ, WURTMAN JJ \u201CBrain Serotonin, Carbohydrate
+    Craving, Obesity and Depression\u201D. \tObesity Research. 1995, vol. 3, n\xFAm.
+    4, p. 35-41.\r\n\r\n- YOKOYAMA M. , \u201CAmygdalic levels of dopamine and serotonin
+    rise upon exposure to conditioned fear stress without elevation of glutamate\u201D.
+    Neuroscience Letters. 2005, vol 379, n\xFAm 1, p. 37-41."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -2120,12 +2124,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 0}
-    characterCount: 553
+    characterCount: 940
     spriteCount: 0
-    spaceCount: 81
-    wordCount: 78
+    spaceCount: 145
+    wordCount: 137
     linkCount: 0
-    lineCount: 20
+    lineCount: 31
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -2966,7 +2970,7 @@ RectTransform:
   - {fileID: 1150903732}
   - {fileID: 2125945785}
   m_Father: {fileID: 526442695}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3702,6 +3706,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1988487228}
+  - {fileID: 1099711154}
+  - {fileID: 1524578568}
   - {fileID: 439591459}
   m_Father: {fileID: 82437201}
   m_RootOrder: 0
@@ -7404,12 +7410,12 @@ RectTransform:
   m_LocalScale: {x: 1.0002227, y: 1.0002227, z: 1.0002227}
   m_Children:
   - {fileID: 528724450}
-  m_Father: {fileID: 82437201}
+  m_Father: {fileID: 526442695}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -36.099976, y: -36}
+  m_AnchoredPosition: {x: -30.83496, y: -31.298462}
   m_SizeDelta: {x: 50.359985, y: 51.410004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1133010251
@@ -8039,6 +8045,17 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1173018280}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1524578567}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -8747,6 +8764,17 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1173018280}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1524578567}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -9587,7 +9615,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -40.6, y: 483.01}
+  m_SizeDelta: {x: -40.6, y: 696.6}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1426923702
 GameObject:
@@ -10496,6 +10524,80 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!1 &1524578567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1524578568}
+  - component: {fileID: 1524578570}
+  - component: {fileID: 1524578569}
+  m_Layer: 5
+  m_Name: Panel invisible
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1524578568
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524578567}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999544, y: 0.9999544, z: 0.9999544}
+  m_Children: []
+  m_Father: {fileID: 526442695}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 10.530029, y: 8.97998}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1524578569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524578567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1524578570
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524578567}
+  m_CullTransparentMesh: 0
 --- !u!1 &1544672368
 GameObject:
   m_ObjectHideFlags: 0
@@ -10530,7 +10632,7 @@ RectTransform:
   - {fileID: 849750810}
   - {fileID: 1647712770}
   m_Father: {fileID: 82437201}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}

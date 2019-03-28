@@ -448,11 +448,11 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 14.25
+  m_fontSize: 9.95
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 10
+  m_fontSizeMin: 8
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -489,7 +489,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 97709843}
-    characterCount: 8
+    characterCount: 13
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -497,11 +497,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -1480,7 +1480,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0.00011742, y: -45.878}
-  m_SizeDelta: {x: 361.2, y: 477.73}
+  m_SizeDelta: {x: 361.2, y: 664.88}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &296296157
 MonoBehaviour:
@@ -1502,15 +1502,20 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "- Aron A. (2005) \u201CReward, Motivation, and Emotion Systems Associated
-    With Early-Stage Intense Romantic Love\u201D\r\n\r\n- Bealer S. (1998) \u201CNoradrenergic
-    control  of central oxytocin release during lactation in rats\u201D \r\n\r\n-
-    Gimpl G., Fahrenholz F, (2001),  \u201DThe Oxytocin Receptor System: Structure,
-    Function, and Regulation\u201D, Physiological Reviews Vol. 81, No. 2. \r\n\r\n-
-    Purves D. (2001), \u201CInvitaci\xF3n a la NEUROCIENCIA\u201D , ED M\xE9dica Panamericana,
-    Buenos Aires\r\n\r\n- Redolar (2013), \u201CNeurociencia cognitiva\u201D, 1\xBA
-    Ed,\r\n\r\n- Siever L (2008), \u201CNeurobiolog\xEDa de la agresividad y la violencia\u201D\r\n\r\n-
-    Willis S (2016)  \u201COxitocin Redux\u201D "
+  m_text: "- ARON A. \u201CReward, Motivation, and Emotion Systems Associated With
+    Early-Stage Intense Romantic Love\u201D. Journal of Neurophysiology. 2005, vol.
+    94, n\xFAm. 1, p. 327-337\r\n\r\n- BEALER S. \u201CNoradrenergic control of central
+    oxytocin release during lactation in rats\u201D. American Journal of Physiology.
+    1998, vol. 274, n\xFAm. 3, p. E453-E458\r\n\r\n- GIMPL G., FAHRENHOLZ F. \u201CThe
+    Oxytocin Receptor System: Structure, Function, and Regulation\u201D. Physiological
+    Reviews. 2001, Vol 81, n\xFAm 2, p. 629-683.\r\n\r\n- PURVES D, AUGUSTINE G J,
+    FITZPATRICK KATZ LAWRENCE C , \u201CInvitaci\xF3n a la Neurociencia\u201D Ed Panamericana,
+    Massachusetts. 2001, EAN: 9788498357547\r\n\r\n- REDOLAR R. \u201CNeurociencia
+    cognitiva\u201D. Madrid: Editorial Panamericana, 2014. 820 p. EAN: 9788498354089\r\n\r\n-
+    SIEVER L , \u201CNeurobiology of Aggression and Violence\u201D. American Journal
+    of Psychiatry. 2008, vol. 165, n\xFAm. 4, p. 429-442.\r\n\r\n- WILLIS K. S. \u201COxitocin
+    Redux\u201D. American Journal of Physiology, Regulatory, Integrative and Comparative
+    Physiology. 2016, vol. 311, n\xFAm. 4, p. R710-R713\r\n "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -1556,7 +1561,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 1020
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -1579,12 +1584,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 0}
-    characterCount: 613
+    characterCount: 1021
     spriteCount: 0
-    spaceCount: 98
-    wordCount: 86
+    spaceCount: 153
+    wordCount: 144
     linkCount: 0
-    lineCount: 23
+    lineCount: 33
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -1648,7 +1653,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 1.6756439, y: 1.562149}
-  m_SizeDelta: {x: 3.4, y: 528.01}
+  m_SizeDelta: {x: 3.4, y: 714.41}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &385342647
 GameObject:
@@ -8371,7 +8376,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000015258789, y: 0.000030517578}
+  m_AnchoredPosition: {x: 0, y: 0.000030517578}
   m_SizeDelta: {x: -17.9, y: 507.73}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1280761493
@@ -12982,7 +12987,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2048312382}
   m_HandleRect: {fileID: 2048312381}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0.9999998
   m_Size: 0.6503384
   m_NumberOfSteps: 0
   m_OnValueChanged:

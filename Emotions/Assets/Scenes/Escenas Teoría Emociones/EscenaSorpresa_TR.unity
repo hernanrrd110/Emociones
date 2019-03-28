@@ -1192,7 +1192,7 @@ RectTransform:
   m_GameObject: {fileID: 64615009}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9991012, y: 0.9991012, z: 0.9991012}
+  m_LocalScale: {x: 1.0000112, y: 1.0000112, z: 1.0000112}
   m_Children:
   - {fileID: 208087004}
   m_Father: {fileID: 810405514}
@@ -1200,7 +1200,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -30.015503, y: -31.194092}
+  m_AnchoredPosition: {x: -34.50003, y: -31.700012}
   m_SizeDelta: {x: 50.359985, y: 51.410004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &64615011
@@ -2531,7 +2531,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -110.77}
+  m_AnchoredPosition: {x: 0, y: -110.76999}
   m_SizeDelta: {x: 0, y: 165.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &220719188
@@ -3744,7 +3744,7 @@ RectTransform:
   - {fileID: 1617460140}
   - {fileID: 381889130}
   m_Father: {fileID: 615565235}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5840,6 +5840,7 @@ RectTransform:
   m_Children:
   - {fileID: 1994052616}
   - {fileID: 774983769}
+  - {fileID: 1109746040}
   - {fileID: 1846456891}
   - {fileID: 300330303}
   m_Father: {fileID: 995733689}
@@ -7277,7 +7278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 156.49998, y: 63.51169}
+  m_AnchoredPosition: {x: 156.5, y: 63.51169}
   m_SizeDelta: {x: 130, y: 34.972}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &774983770
@@ -7506,7 +7507,7 @@ RectTransform:
   - {fileID: 742057157}
   - {fileID: 2130211829}
   m_Father: {fileID: 995733689}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -8119,7 +8120,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000015195692, y: -164.99379}
+  m_AnchoredPosition: {x: 0.000015251183, y: -164.99379}
   m_SizeDelta: {x: 0, y: 330}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &898706224
@@ -9294,9 +9295,10 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "- Darwin C., Eckman P. (1998), Ed Oxford University Press \u201CThe Expression
-    of the Emotions in Man and Animal\u201D \r\n\n- Ekman P., Friesen W.V., (1975)
-    \u201CUnmasking the face\u201D\f"
+  m_text: "DARWIN C. \u201CThe Expression of the Emotions in Man and Animal\u201D.
+    ECKMAN P. 3ra. Ed. New York: Oxford University Press, 1998. 472 p. ISBN: 9780195158069\r\n\r\nEKMAN
+    P.; FRIESEN W.V. \u201CUnmasking the face: A guide to recognizing emotions from
+    facial clues\u201D. 1ra ed,Cambridge, Malor books, 2003. 215 p. ISBN 1-883536-36-7"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -9365,19 +9367,19 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 989820966}
-    characterCount: 166
+    characterCount: 317
     spriteCount: 0
-    spaceCount: 29
-    wordCount: 29
+    spaceCount: 52
+    wordCount: 53
     linkCount: 0
-    lineCount: 6
+    lineCount: 10
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -9650,7 +9652,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 615565235}
-  - {fileID: 1109746040}
   - {fileID: 810405514}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -10449,12 +10450,12 @@ RectTransform:
   m_LocalScale: {x: 0.9999544, y: 0.9999544, z: 0.9999544}
   m_Children:
   - {fileID: 910401671}
-  m_Father: {fileID: 995733689}
-  m_RootOrder: 1
+  m_Father: {fileID: 615565235}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -34.499977, y: -31.70002}
+  m_AnchoredPosition: {x: -34.5, y: -31.700012}
   m_SizeDelta: {x: 50.359985, y: 51.410004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1138496216
@@ -13797,9 +13798,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 92990397df309d44385e958b99d86b61, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a21b1c9e68ba95b4eb2ce3ce25dbff49, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -13828,10 +13829,10 @@ RectTransform:
   m_Father: {fileID: 300330303}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.13822937}
-  m_SizeDelta: {x: -156.61, y: -13.279999}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 153.58, y: 222.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1747318396
 GameObject:
@@ -14583,7 +14584,7 @@ RectTransform:
   m_LocalScale: {x: 0.9999544, y: 0.9999544, z: 0.9999544}
   m_Children: []
   m_Father: {fileID: 615565235}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}

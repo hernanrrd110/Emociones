@@ -4030,8 +4030,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000015258789, y: -286.10925}
-  m_SizeDelta: {x: 0, y: 572.24}
+  m_AnchoredPosition: {x: 0.000015258789, y: -377}
+  m_SizeDelta: {x: 0, y: 754.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &408752931
 GameObject:
@@ -4067,7 +4067,7 @@ RectTransform:
   - {fileID: 1662056311}
   - {fileID: 903212364}
   m_Father: {fileID: 995733689}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4739,7 +4739,7 @@ RectTransform:
   m_LocalScale: {x: 0.9999544, y: 0.9999544, z: 0.9999544}
   m_Children: []
   m_Father: {fileID: 615565235}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5790,6 +5790,7 @@ RectTransform:
   m_Children:
   - {fileID: 1994052616}
   - {fileID: 575256890}
+  - {fileID: 1184452734}
   - {fileID: 463618357}
   - {fileID: 814661116}
   m_Father: {fileID: 995733689}
@@ -6495,7 +6496,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -110.77}
+  m_AnchoredPosition: {x: 0, y: -110.76999}
   m_SizeDelta: {x: 0, y: 165.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &742117064
@@ -6897,7 +6898,7 @@ RectTransform:
   - {fileID: 212582296}
   - {fileID: 1404340743}
   m_Father: {fileID: 615565235}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8556,8 +8557,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.012054443, y: -45.699997}
-  m_SizeDelta: {x: 0, y: 520.67}
+  m_AnchoredPosition: {x: 0.012054443, y: -45.700012}
+  m_SizeDelta: {x: 0, y: 708.8}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &989820966
 MonoBehaviour:
@@ -8579,18 +8580,21 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "- Fink G. (2016), ED Elsevier, Handbook of Stress, Vol I, \u201CStress:
-    Concepts, Cognition, Emotion, and Behavior\u201D\r\n\r\n- Friedman H.  (2016)
-    \u201CEncyclopedia of Mental Health\u201D, Vol I,  2\xBA Ed., ED. Elsevier \r\n\r\n-
-    Garfinkel S., Zorab E., Navaratnam N., Engels M., Mallorqu\xED-Bagu\xE9 N., Minati
-    L., Dowell N., Brosschot J., Thayer J., Critchley H. (2015) \u201CAnger in brain
-    and body: the neural and physiological perturbation of decision-making by emotion\u201D
-    \r\n\r\n- Salazar-Lopez E., Dom\xEDnguez E., Juarez Ramos V., de la Fuente J.,
-    Meins A., Iborra O., G\xE1lvez G., Rodr\xEDguez-Artacho M. A., G\xF3mez-Mil\xE1n
-    E. (2015) \u201CThe mental and subjective skin: Emotion, empathy, feelings and
-    thermography\u201D\r\n\r\n-Soteras-del-Toro M., Sanz-Martinez Y., Ricardo-Medina
-    W. (2011) \u201CLa emoci\xF3n de la ira: Aproximaciones para su comprensi\xF3n
-    y tratamiento\u201D.\r\n"
+  m_text: "- FINK G. \u201CStress: Concepts, Cognition, Emotion, and Behavior: Handbook
+    in Stress Series, Volume 1\u201D. Melbourne: Academic Press, 2016. 502 p. ISBN:
+    978-0-12-800951-2\r\n\r\n- FRIEDMAN H. \u201CEncyclopedia of Mental Health: Vol.
+    I\u201D,  2\xBA Ed. California: Academic Press, 2016. 2000 p. ISBN: 978-0-12-397753-3\r\n\r\n-
+    GARFINKEL S., ZORAB E., NAVARATNAM N., ENGELS M., MALLORQU\xCD-BAGU\xC9 N., MINATI
+    L., DOWELL N., BROSSCHOT J., THAYER J., CRITCHLEY H. \u201CAnger in brain and
+    body: the neural and physiological perturbation of decision-making by emotion\u201D.
+    Social Cognitive and Affective Neuroscience. 2016, vol 11, n\xFAm 1, p. 150\u2013158.\r\n\r\n-
+    SALAZAR-LOPEZ E., DOM\xCDNGUEZ E., JUAREZ RAMOS V., DE LA FUENTE J., MEINS A.,
+    IBORRA O., G\xC1LVEZ G., RODR\xCDGUEZ-ARTACHO M. A., G\xD3MEZ-MIL\xC1N E.\u201CThe
+    mental and subjective skin: Emotion, empathy, feelings and thermography\u201D.
+    Conscious Cogn. 2015 vol 34, p. 149-62.\r\n\r\n- SOTERAS-DEL-TORO M., SANZ-MARTINEZ
+    Y., RICARDO-MEDINA W. (2011) \u201CLa emoci\xF3n de la ira: Aproximaciones para
+    su comprensi\xF3n y tratamiento\u201D. Santiago. 2011, vol. 124, n\xFAm. 1, p.
+    60-75\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -8659,12 +8663,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 989820966}
-    characterCount: 812
+    characterCount: 1058
     spriteCount: 0
-    spaceCount: 127
-    wordCount: 119
+    spaceCount: 160
+    wordCount: 157
     linkCount: 0
-    lineCount: 25
+    lineCount: 34
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -8784,7 +8788,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 615565235}
-  - {fileID: 1184452734}
   - {fileID: 408752932}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -9289,7 +9292,7 @@ RectTransform:
   m_GameObject: {fileID: 1083077451}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9991012, y: 0.9991012, z: 0.9991012}
+  m_LocalScale: {x: 1.0000112, y: 1.0000112, z: 1.0000112}
   m_Children:
   - {fileID: 108020870}
   m_Father: {fileID: 408752932}
@@ -9297,7 +9300,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -30.015503, y: -31.194092}
+  m_AnchoredPosition: {x: -34.50003, y: -31.700012}
   m_SizeDelta: {x: 50.359985, y: 51.410004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1083077453
@@ -10105,12 +10108,12 @@ RectTransform:
   m_LocalScale: {x: 0.9999544, y: 0.9999544, z: 0.9999544}
   m_Children:
   - {fileID: 627485384}
-  m_Father: {fileID: 995733689}
-  m_RootOrder: 1
+  m_Father: {fileID: 615565235}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -34.499977, y: -31.70002}
+  m_AnchoredPosition: {x: -34.5, y: -31.700012}
   m_SizeDelta: {x: 50.359985, y: 51.410004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1195959323
@@ -11015,7 +11018,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000000056381257, y: -211.80202}
+  m_AnchoredPosition: {x: 0.000015254085, y: -211.80202}
   m_SizeDelta: {x: 0, y: 423.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1353912901
@@ -12739,9 +12742,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 4919431572af2054287c04e82fa0298e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59767c0a3b2198b43a563703063d55cd, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -12770,10 +12773,10 @@ RectTransform:
   m_Father: {fileID: 814661116}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.13822937}
-  m_SizeDelta: {x: -156.61, y: -13.279999}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 152.85, y: 222.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1586544179
 GameObject:

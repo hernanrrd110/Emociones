@@ -1494,7 +1494,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 615565235}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1817,7 +1817,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -110.77}
+  m_AnchoredPosition: {x: 0, y: -110.76999}
   m_SizeDelta: {x: 0, y: 165.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &252221174
@@ -2485,12 +2485,12 @@ RectTransform:
   m_LocalScale: {x: 0.9999544, y: 0.9999544, z: 0.9999544}
   m_Children:
   - {fileID: 1620902294}
-  m_Father: {fileID: 995733689}
-  m_RootOrder: 1
+  m_Father: {fileID: 615565235}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -34.499977, y: -31.70002}
+  m_AnchoredPosition: {x: -34.49997, y: -31.276855}
   m_SizeDelta: {x: 50.359985, y: 51.410004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &409442830
@@ -3360,6 +3360,7 @@ RectTransform:
   m_Children:
   - {fileID: 1994052616}
   - {fileID: 264173677}
+  - {fileID: 368138952}
   - {fileID: 196877232}
   - {fileID: 1756941987}
   m_Father: {fileID: 995733689}
@@ -4030,9 +4031,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: d3bd8243434cc2c4ea8e815a9b825d1b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c66db274f4499b344aac0613d7180ca5, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -4063,8 +4064,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.13822937}
-  m_SizeDelta: {x: -156.61, y: -13.279999}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -69.17999, y: -13.653}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &746933800
 GameObject:
@@ -4892,7 +4893,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00001882583, y: -162.82}
+  m_AnchoredPosition: {x: 0.000015255377, y: -162.82}
   m_SizeDelta: {x: -0.03, y: 326.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &840855954
@@ -5843,7 +5844,7 @@ RectTransform:
   - {fileID: 2028732572}
   - {fileID: 1011698034}
   m_Father: {fileID: 995733689}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -6504,8 +6505,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -45.699997}
-  m_SizeDelta: {x: 0, y: 417}
+  m_AnchoredPosition: {x: 0, y: -45.700012}
+  m_SizeDelta: {x: 0, y: 602.98}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &989820966
 MonoBehaviour:
@@ -6527,15 +6528,20 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "- Agudelo D., Buela-Casal G.,Spielberger C. (2007) \u201CAnsiedad y Depresi\xF3n:
-    El problema de la diferenciaci\xF3n a trav\xE9s de los s\xEDntomas\u201D \r\n\r\n-
-    Dobson K. (1985), \u201CThe relationship between anxiety and depression\u201D
-    \r\n\r\n- Garfinkel S., Zorab E., Navaratnam N., Engels M., Mallorqu\xED-Bagu\xE9
-    N., Minati L., Dowell N., Brosschot J., Thayer J., Critchley H. (2015) \u201CAnger
-    in brain and body: the neural and physiological perturbation of decision-making
-    by emotion\u201D\r\n\r\n- Jim\xE9nez Manuel Ant\xF3n, G\xE1lvez S\xE1nchez Noem\xED,
-    S\xE1iz Raquel Esteban \u201CDEPRESI\xD3N Y ANSIEDAD\u201D \r\n\r\n- Pinel JPJ,
-    \u201CBiopsicolog\xEDa\u201D Ed Pearson educaci\xF3n S.A., Madrid, 2007\r"
+  m_text: "- AGUDELO D.; BUELA-CASAL G.; SPIELBERGER C. \u201CAnsiedad y Depresi\xF3n:
+    El problema de la diferenciaci\xF3n a trav\xE9s de los s\xEDntomas\u201D. Salud
+    Mental. 2007, vol. 30, n\xFAm. 2.\r\n\r\n- DOBSON K. \u201CThe relationship between
+    anxiety and depression\u201D. Clinical Physiology Review. 1985, vol. 5, n\xFAm.
+    4, p. 307-324 \r\n\r\n- GARFINKEL S., ZORAB E., NAVARATNAM N., ENGELS M., MALLORQU\xCD-BAGU\xC9
+    N., MINATI L., DOWELL N., BROSSCHOT J., THAYER J., CRITCHLEY H. \u201CAnger in
+    brain and body: the neural and physiological perturbation of decision-making by
+    emotion\u201D. Social Cognitive and Affective Neuroscience. 2016, vol 11, n\xFAm
+    1, p. 150\u2013158.\r\n\r\n- JIM\xC9NEZ M. A., G\xC1LVEZ S\xC1NCHEZ N., S\xC1IZ
+    R. E. \u201CDepresi\xF3n y ansiedad\u201D. En: SOCIEDAD ESPA\xD1OLA DE GERIATR\xCDA
+    Y GERONTOLOG\xCDA \u201CTratado de Geriatr\xEDa para Residentes\u201D. Madrid:
+    Sociedad Espa\xF1ola de Geriatr\xEDa y Gerontolog\xEDa, 2006. p. 243-249\r\n\r\n-
+    PINEL JPJ, \u201CBiopsicolog\xEDa\u201D, 6ta ed, Ed PEARSON EDUCACI\xD3N, SA.,
+    Madrid, 2007, 640 p., ISBN 13:978-84-7829-100-7.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -6604,12 +6610,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 989820966}
-    characterCount: 614
+    characterCount: 960
     spriteCount: 0
-    spaceCount: 95
-    wordCount: 91
+    spaceCount: 149
+    wordCount: 146
     linkCount: 0
-    lineCount: 20
+    lineCount: 29
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -6729,7 +6735,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 615565235}
-  - {fileID: 368138952}
   - {fileID: 925796968}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -10021,7 +10026,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00000048593574, y: -107.5}
+  m_AnchoredPosition: {x: 0, y: -107.499985}
   m_SizeDelta: {x: -8.8, y: 215.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1500402424
@@ -12526,7 +12531,7 @@ RectTransform:
   - {fileID: 977894925}
   - {fileID: 706218898}
   m_Father: {fileID: 615565235}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -13028,7 +13033,7 @@ RectTransform:
   m_GameObject: {fileID: 1802036358}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9991012, y: 0.9991012, z: 0.9991012}
+  m_LocalScale: {x: 1.0000112, y: 1.0000112, z: 1.0000112}
   m_Children:
   - {fileID: 1929586340}
   m_Father: {fileID: 925796968}
@@ -13036,7 +13041,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -30.015503, y: -31.194092}
+  m_AnchoredPosition: {x: -34.50003, y: -31.700012}
   m_SizeDelta: {x: 50.359985, y: 51.410004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1802036360
@@ -15125,8 +15130,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000015258789, y: -233.82622}
-  m_SizeDelta: {x: 0, y: 467.67}
+  m_AnchoredPosition: {x: 0.000015258789, y: -325.24}
+  m_SizeDelta: {x: 0, y: 650.51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2028732571
 GameObject:
@@ -15982,7 +15987,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0060424805, y: -22.849625}
+  m_AnchoredPosition: {x: 0.0060424805, y: -22.84961}
   m_SizeDelta: {x: -0.012023926, y: 45.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2135330218

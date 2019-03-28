@@ -203,7 +203,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 82437201}
-  - {fileID: 1381053140}
   - {fileID: 503232340}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -1039,8 +1038,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.6906738, y: 0}
-  m_SizeDelta: {x: 3.43, y: 508.16}
+  m_AnchoredPosition: {x: 1.6756897, y: 0}
+  m_SizeDelta: {x: 3.4, y: 557.3}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &162995159
 GameObject:
@@ -1929,6 +1928,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 748933703}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &277012037
@@ -2454,7 +2464,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -1.715, y: -45.875}
-  m_SizeDelta: {x: 361.2, y: 460.8}
+  m_SizeDelta: {x: 361.2, y: 499.4}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &296296157
 MonoBehaviour:
@@ -2476,15 +2486,16 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "- Barkus C. (2010) \u201CHippocampal NMDA receptors and anxiety: At the
-    interface between cognition and emotion\r\n\r\n- Berger A. (1998) \u201CGlycine
-    Uptake Governs Glycine Site Occupancy at NMDA Receptors of Excitatory Synapses\u201D\r\n\r\n-
-    Kandel E (1985)\u201CPrinciples of Neural Science\u201D, 2da Edici\xF3n, ED. Elsevier\r\n\r\n-
-    Mothet J-P. (2000) \u201Cd-Serine is an endogenous ligand for the glycine site
-    of the N-methyl-d-aspartate receptor\u201D\r\n\r\n- Purves D., 2001 \u201CInvitaci\xF3n
-    a la NEUROCIENCIA\u201D, ED M\xE9dica Panamericana, Buenos Aires\r\n\r\n- Song
-    W. (2006)\u201CGlycine-Gated Chloride Channels Depress Synaptic Transmission in
-    Rat Hippocampus\u201D"
+  m_text: "- BERGER A.  \u201CGlycine Uptake Governs Glycine Site Occupancy at NMDA
+    Receptors of Excitatory Synapses\u201D. Journal of Neurophysiology. 1999, vol.
+    80, n\xFAm. 6, p. 3336-3340\r\n\r\n- KANDEL E (1985) \u201CPrinciples of Neural
+    Science\u201D, 5\xBA Edici\xF3n, Nueva York: ed. McGraw-Hill Companies,ISBN 978-0-07-139011-8\r\n\r\n-
+    MOTHET J-P. \u201Cd-Serine is an endogenous ligand for the glycine site of the
+    N-methyl-d-aspartate receptor\u201D. PNAS. 2000, vol 97, n\xFAm 9, p. 4926-4931.\r\n\r\n-
+    PURVES D, AUGUSTINE G J, FITZPATRICK KATZ LAWRENCE C , \u201CInvitaci\xF3n a la
+    Neurociencia\u201D Ed Panamericana, Massachusetts. 2001, EAN: 9788498357547\r\n\r\n-
+    SONG W. \"Glycine-Gated Chloride Channels Depress Synaptic Transmission in Rat
+    Hippocampus\u201D. Journal of Neurophysiology. 2006, vol. 95, n\xFAm. 4, p. 2366-2379"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 71e7499f711e27149a059c72259a36c1, type: 2}
@@ -2553,12 +2564,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 0}
-    characterCount: 604
+    characterCount: 753
     spriteCount: 0
-    spaceCount: 89
-    wordCount: 87
+    spaceCount: 112
+    wordCount: 108
     linkCount: 0
-    lineCount: 22
+    lineCount: 24
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -4108,7 +4119,7 @@ RectTransform:
   - {fileID: 1402765037}
   - {fileID: 1980427593}
   m_Father: {fileID: 3152530}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4427,6 +4438,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1988487228}
+  - {fileID: 1381053140}
+  - {fileID: 748933706}
   - {fileID: 587065178}
   m_Father: {fileID: 82437201}
   m_RootOrder: 0
@@ -4758,7 +4771,7 @@ RectTransform:
   - {fileID: 1248335369}
   - {fileID: 162995160}
   m_Father: {fileID: 526442695}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5944,6 +5957,80 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 189.01, y: 26}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &748933703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 748933706}
+  - component: {fileID: 748933705}
+  - component: {fileID: 748933704}
+  m_Layer: 5
+  m_Name: Panel invisible
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &748933704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748933703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &748933705
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748933703}
+  m_CullTransparentMesh: 0
+--- !u!224 &748933706
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748933703}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999544, y: 0.9999544, z: 0.9999544}
+  m_Children: []
+  m_Father: {fileID: 526442695}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.21154785}
+  m_SizeDelta: {x: 10.530029, y: 8.97998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &752617177
 GameObject:
@@ -9743,7 +9830,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000015245619, y: 0.000045776367}
+  m_AnchoredPosition: {x: 0, y: 0.000045776367}
   m_SizeDelta: {x: -17.9, y: 716.4}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1324612644
@@ -10298,12 +10385,12 @@ RectTransform:
   m_LocalScale: {x: 1.0004042, y: 1.0004042, z: 1.0004042}
   m_Children:
   - {fileID: 463122710}
-  m_Father: {fileID: 3152530}
+  m_Father: {fileID: 526442695}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -36.099976, y: -36}
+  m_AnchoredPosition: {x: -30.83496, y: -31.51001}
   m_SizeDelta: {x: 50.359985, y: 51.410004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1390451653
@@ -12924,8 +13011,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2048312382}
   m_HandleRect: {fileID: 2048312381}
   m_Direction: 2
-  m_Value: 0.9999998
-  m_Size: 0.45927873
+  m_Value: 1
+  m_Size: 0.45927882
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -14348,6 +14435,17 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 277012033}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 748933703}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
